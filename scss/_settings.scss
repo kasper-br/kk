@@ -1,0 +1,18 @@
+//Sizes
+$siteWidthWrapper: 1440px;
+
+//Color
+$blue: #293952;
+$white: #ffffff;
+$lightgrey: #f6f6f6;
+
+//Body
+body { background: $lightgrey; }
+
+//Area
+section {
+    padding: 60px 0;
+    max-width: $siteWidthWrapper;
+    width: 100%;
+    margin: 0 auto;
+}
