@@ -2,30 +2,40 @@ article.gallery {
     ul {
         li {
             padding: 15px;
-            figure {
-                @include clearfix;
-                max-width: $lg;
-                margin: 0 auto;
-                padding: 60px 0;
+            figure {       
+                padding: 15px;
+
+                @media screen and (min-width: $md) {
+                    @include clearfix;
+                    max-width: $lg;
+                    margin: 0 auto;
+                    padding: 60px 0;
+                }
 
                 figcaption {
-                    max-width: 46%;
-                    float: left;
-                    margin-right: 8%;
+
+                    @media screen and (min-width: $md) {
+                        max-width: 46%;
+                        float: right;
+                        margin-right: 8%;                        
+                    }
 
                     h2 {
-                        font-weight: 200;
                         color: $blue;
-                        font-size: 66px;
-                        line-height: 75px;
                         margin-bottom: 15px;
-                        
+                        margin-top: 20px;
+                        @media screen and (min-width: $md) {
+                            margin-top: 0;   
+                        }
                     }
 
                     p {
                         font-weight: 300;
-                        font-size: 20px;
-                        line-height: 28px;
+                        
+                        @media screen and (min-width: $md) {
+                            font-size: 20px;
+                            line-height: 28px;                            
+                        }
                     }
 
                     .btn {
@@ -35,9 +45,12 @@ article.gallery {
                 }
 
                 img {
-                    width: 46%;
+                    width: 100%;
                     height: auto;
-                    float: float;
+                    @media screen and (min-width: $md) {
+                        width: 46%;
+                        float: right;
+                    }
                 }
 
             }
