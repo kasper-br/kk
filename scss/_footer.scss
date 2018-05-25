@@ -2,4 +2,14 @@ footer {
     background: $blue;
     color: $white;
     padding: 60px;
+
+    ul {
+        &:first-child {
+            li {
+                &:first-child {
+                    color: red;
+                }
+            }
+        }
+    }
 }
