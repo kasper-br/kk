@@ -33,6 +33,61 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/img\/bolig-byggeri.png": {
+		"ft": 32768,
+		"iS": 38055,
+		"oA": 0,
+		"oAP": "\/img\/bolig-byggeri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/flytning.png": {
+		"ft": 32768,
+		"iS": 874166,
+		"oA": 0,
+		"oAP": "\/img\/flytning.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/job-uddannelse.png": {
+		"ft": 32768,
+		"iS": 13201,
+		"oA": 0,
+		"oAP": "\/img\/job-uddannelse.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/pas-bestilling.png": {
+		"ft": 32768,
+		"iS": 897578,
+		"oA": 0,
+		"oAP": "\/img\/pas-bestilling.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/sundhed-sygedom.png": {
+		"ft": 32768,
+		"iS": 13845,
+		"oA": 0,
+		"oAP": "\/img\/sundhed-sygedom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,

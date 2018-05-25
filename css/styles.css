@@ -31,7 +31,7 @@ body:after {
   position: fixed;
   bottom: 0;
   right: 0;
-  content: 'MOBILE'; }
+  content: 'MF'; }
   @media screen and (min-width: 599px) {
     body:after {
       content: 'SM'; } }
