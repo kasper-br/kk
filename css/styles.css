@@ -322,3 +322,6 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   width: 87.5px;
   height: auto;
 }
+.grid-container .item0 {
+  grid-column: 1 / 4;
+}

@@ -7,6 +7,7 @@
 
         div{
                 text-align: center;
+
                 a {
                         text-decoration: none;
                         img {
@@ -14,5 +15,9 @@
                                 height: auto;
                         }
                 }
+        }
+
+        .item0 {
+                grid-column: 1 / 4;
         }
 }
