@@ -1,1 +1,0 @@
-$(document).ready(function(){var e=$(".slideshow").bxSlider({slideMargin:5,pager:!0,controls:!1,auto:!0,pause:"5500",speed:"300",useCSS:!1})});

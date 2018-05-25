@@ -1,39 +1,234 @@
-/*
-Error: Invalid CSS after "...ort 'indexgrid'": expected "{", was ";"
-        on line 12 of /Users/Steffen/Documents/EASJ/eksamen 2. semester/kk/scss/styles.scss
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif; }
 
-7: 
-8: //WEBSITE
-9: @import 'header';
-10: @import 'footer';
-11: <<<<<<< HEAD
-12: @import 'indexgrid';
-13: =======
-14: @import 'frontpage-gallery';
-15: >>>>>>> 3562cbce4b939dc9750f325ca2c316714788e920
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-Backtrace:
-/Users/Steffen/Documents/EASJ/eksamen 2. semester/kk/scss/styles.scss:12
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ort 'indexgrid'\": expected \"{\", was \";\"\A         on line 12 of /Users/Steffen/Documents/EASJ/eksamen 2. semester/kk/scss/styles.scss\A \A 7: \A 8: //WEBSITE\A 9: @import 'header';\A 10: @import 'footer';\A 11: <<<<<<< HEAD\A 12: @import 'indexgrid';\A 13: =======\A 14: @import 'frontpage-gallery';\A 15: >>>>>>> 3562cbce4b939dc9750f325ca2c316714788e920"; }
+body {
+  background: #f6f6f6; }
+
+section {
+  padding: 60px 0;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto; }
+
+.desktop {
+  display: none !important; }
+  @media screen and (min-width: 767px) {
+    .desktop {
+      display: block !important; } }
+
+body:after {
+  background: #bb3445;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  content: 'MF'; }
+  @media screen and (min-width: 599px) {
+    body:after {
+      content: 'SM'; } }
+  @media screen and (min-width: 767px) {
+    body:after {
+      content: 'MD'; } }
+  @media screen and (min-width: 1099px) {
+    body:after {
+      content: 'LG'; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+p {
+  font-size: 16px; }
+
+.btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  font-weight: 900;
+  padding: 13px 20px;
+  transition: 300ms ease;
+  cursor: pointer;
+  display: inline-block; }
+  .btn.blue.outline {
+    border: 1px solid #293952;
+    border-radius: 100px;
+    color: #293952;
+    background: transparent; }
+    .btn.blue.outline:hover {
+      background: #293952;
+      color: #ffffff; }
+  .btn.white.outline {
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    color: #ffffff;
+    background: transparent; }
+    .btn.white.outline:hover {
+      background: #ffffff;
+      color: #293952; }
+
+nav.submenu {
+  background: #293952;
+  color: #ffffff;
+  display: none; }
+  @media screen and (min-width: 767px) {
+    nav.submenu {
+      display: block; } }
+  nav.submenu ul {
+    list-style: none;
+    text-align: center; }
+    nav.submenu ul li {
+      display: inline-block; }
+      nav.submenu ul li a {
+        font-size: 16px;
+        font-weight: 900;
+        padding: 13px 30px;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: block; }
+
+nav.mainmenu {
+  background: #ffffff;
+  padding: 15px;
+  position: relative; }
+  nav.mainmenu:after {
+    content: "";
+    display: table;
+    clear: both; }
+  nav.mainmenu .logo {
+    width: 150px;
+    display: block; }
+    @media screen and (min-width: 767px) {
+      nav.mainmenu .logo {
+        width: 200px;
+        float: left;
+        margin-top: 6px; } }
+    nav.mainmenu .logo svg {
+      width: 100%;
+      height: auto; }
+  nav.mainmenu .search {
+    margin: 30px 0;
+    position: relative; }
+    @media screen and (min-width: 767px) {
+      nav.mainmenu .search {
+        float: left;
+        margin: 0;
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); } }
+    nav.mainmenu .search:after {
+      content: '';
+      background-image: url("data:image/svg+xml, %3Csvg width='23px' height='23px' viewBox='0 0 23 23' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Forside' transform='translate(-505.000000, -85.000000)' fill='%23000000' fill-rule='nonzero'%3E %3Cg id='Header' transform='translate(-5.000000, 0.000000)'%3E %3Cg id='magnifying-glass' transform='translate(510.000000, 85.000000)'%3E %3Cpath d='M22.8010645,21.827051 L17.210468,16.237694 C18.7101353,14.513969 19.6180971,12.2649667 19.6180971,9.80687361 C19.6180971,4.39600887 15.2160124,0 9.80904857,0 C4.39698381,0 0,4.40110865 0,9.80687361 C0,15.2126386 4.40208472,19.6137472 9.80904857,19.6137472 C12.2676868,19.6137472 14.5171878,18.7059867 16.2412952,17.2066519 L21.8318918,22.7960089 C21.9645154,22.9286031 22.1430472,23 22.3164782,23 C22.4899091,23 22.6684409,22.9337029 22.8010645,22.7960089 C23.0663118,22.5308204 23.0663118,22.0922395 22.8010645,21.827051 Z M1.3721446,9.80687361 C1.3721446,5.15587583 5.15701929,1.37694013 9.80394766,1.37694013 C14.4559769,1.37694013 18.2357507,5.16097561 18.2357507,9.80687361 C18.2357507,14.4527716 14.4559769,18.2419069 9.80394766,18.2419069 C5.15701929,18.2419069 1.3721446,14.4578714 1.3721446,9.80687361 Z' id='Shape'%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+      background-size: 100%;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%); }
+    nav.mainmenu .search input {
+      width: calc(100% - 30px);
+      height: 30px;
+      border: 0;
+      margin: 0 15px;
+      border-bottom: 1px solid #293952;
+      text-align: center;
+      color: #293952;
+      font-weight: 300;
+      font-size: 20px;
+      padding: 0 0 10px; }
+  @media screen and (max-width: 400px) {
+    nav.mainmenu .btn {
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      padding: 7px 10px;
+      font-size: 12px; } }
+  @media screen and (min-width: 767px) {
+    nav.mainmenu .btn {
+      float: right;
+      margin-top: 6px; } }
+
+footer {
+  background: #293952;
+  color: #ffffff;
+  padding: 60px; }
+
+article.gallery ul li {
+  padding: 15px; }
+  article.gallery ul li figure {
+    max-width: 1099px;
+    margin: 0 auto;
+    padding: 60px 0; }
+    article.gallery ul li figure:after {
+      content: "";
+      display: table;
+      clear: both; }
+    article.gallery ul li figure figcaption {
+      max-width: 46%;
+      float: left;
+      margin-right: 8%; }
+      article.gallery ul li figure figcaption h2 {
+        font-weight: 200;
+        color: #293952;
+        font-size: 66px;
+        line-height: 75px;
+        margin-bottom: 15px; }
+      article.gallery ul li figure figcaption p {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px; }
+      article.gallery ul li figure figcaption .btn {
+        margin-top: 40px; }
+    article.gallery ul li figure img {
+      width: 46%;
+      height: auto;
+      float: float; }
+
+article.gallery .bx-controls {
+  position: relative;
+  z-index: 10;
+  margin-top: 30px; }
+  @media screen and (min-width: 599px) {
+    article.gallery .bx-controls {
+      margin-top: 20px; } }
+  article.gallery .bx-controls .bx-pager {
+    text-align: center; }
+    article.gallery .bx-controls .bx-pager .bx-pager-item {
+      display: inline-block; }
+      article.gallery .bx-controls .bx-pager .bx-pager-item a {
+        color: transparent;
+        display: block;
+        padding: 5px 7px 20px;
+        user-select: none; }
+        article.gallery .bx-controls .bx-pager .bx-pager-item a:after {
+          content: '';
+          width: 50px;
+          height: 2px;
+          background: #ccc;
+          display: block;
+          border-radius: 10px;
+          transition: 500ms ease; }
+        article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
+          background: #293952; }
+
+.grid-container {
+  background-color: red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  grid-gap: 2px; }
+  .grid-container div a {
+    text-decoration: none; }
+    .grid-container div a img {
+      width: 87.5px;
+      height: auto; }
