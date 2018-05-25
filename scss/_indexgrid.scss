@@ -1,11 +1,12 @@
 .grid-container {
-        background-color: red;
+        background-color: yellow;
         display: grid;
         grid-template-columns: auto auto auto;
         width: 100%;
         grid-gap: 2px;
 
         div{
+                text-align: center;
                 a {
                         text-decoration: none;
                         img {
