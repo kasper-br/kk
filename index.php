@@ -1,9 +1,5 @@
 <?php include 'header.php';?>
 
-<<<<<<< HEAD
-<article>
-asdasd
-=======
 <article class="gallery">
     <ul class="slideshow">
         <li>
@@ -27,7 +23,6 @@ asdasd
             </figure>
         </li>
     </ul>
->>>>>>> 3562cbce4b939dc9750f325ca2c316714788e920
 </article>
 
 <article class="grid-container">
