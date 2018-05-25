@@ -339,21 +339,46 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 }
 
 .grid-container {
-  background-color: yellow;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 100%;
-  grid-gap: 2px;
+  grid-row-gap: 25px;
+  width: 1099px;
+  margin: auto;
 }
 .grid-container div {
   text-align: center;
+  padding: 25px;
 }
 .grid-container div a {
   text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 .grid-container div a img {
-  width: 87.5px;
+  width: 280px;
   height: auto;
+}
+.grid-container div a h4 {
+  font-size: 26px;
+}
+.grid-container div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px;
+  margin: auto;
+}
+.grid-container div ul li {
+  display: inline-block;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.grid-container div .sealle {
+  display: block;
+  padding: 0px;
+  font-weight: 900;
+  letter-spacing: 0.9px;
+  color: #293952;
+  font-size: 16px;
 }
 .grid-container .item0 {
   grid-column: 1 / 4;

@@ -1,19 +1,48 @@
 .grid-container {
-        background-color: yellow;
+        // background-color: yellow;
         display: grid;
         grid-template-columns: auto auto auto;
-        width: 100%;
-        grid-gap: 2px;
+        grid-row-gap: 25px;
+        width: $lg;
+        margin: auto;
 
-        div{
+        div {
                 text-align: center;
+                padding: 25px;
 
                 a {
                         text-decoration: none;
+                        color: black;
+                        font-size: 20px;
+
                         img {
-                                width: 87.5px;
+                                width: 280px;
                                 height: auto;
                         }
+
+                        h4{
+                                font-size: 26px;
+                        }
+                }
+
+                ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 10px 10px;;
+                        margin: auto;
+                        li{
+                                display: inline-block;
+                                text-decoration-line: underline;
+                        }
+                }
+
+                .sealle {
+                        display: block;
+                        padding: 0px;
+                        font-weight: 900;
+                        letter-spacing: 0.9px;
+                        color: $blue;
+                        font-size: 16px;
                 }
         }
 

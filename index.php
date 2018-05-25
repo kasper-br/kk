@@ -28,102 +28,115 @@
 <article class="grid-container">
         <div class="item0"><h3>Hvad kan jeg hjælpe med</h3></div>
         <div class="item1">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri"></a>
                 <a href="#"><h4>Borgerservice</h4></a>
-                <a href="#">Pas,</a>
-                <a href="#">NemID,</a>
-                <a href="#">Meld at du flytter,</a>
-                <a href="#">Kørekort,</a>
-                <a href="#">Sundhedskort,</a>
-                <a href="#">Se alle</a>
+                <ul>
+                        <li><a href="#">Pas,</a></li>
+                        <li><a href="#">NemID,</a></li>
+                        <li><a href="#">Meld at du flytter,</a></li>
+                        <li><a href="#">Kørekort,</a></li>
+                        <li><a href="#">Sundhedskort,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item2">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Børn, unge og familie</h4></a>
-                <a href="#">Dagtilbud,</a>
-                <a href="#">Orlov & Barse,l</a>
-                <a href="#">Familieydelser,</a>
-                <a href="#">Parforhold & Ægteskab,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/job-uddannelse.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Job & Uddannelse</h4></a>
+                <ul>
+                        <li><a href="#">Ledig,</a></li>
+                        <li><a href="#">SU,</a></li>
+                        <li><a href="#">Skoler,</a></li>
+                        <li><a href="#">Økonomi,</a></li>
+                        <li><a href="#">Nedsat arbejdsevne,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item3">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri">
-                </a><a href="#" ><h4>Ældre</h4></a>
-                <a href="#">Dagjem,</a>
-                <a href="#">Demenstilbud,</a>
-                <a href="#">Folkepension,</a>
-                <a href="#">Rådgivning</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/sundhed-sygedom.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Sundhed & Sygdom</h4></a>
+                <ul>
+                        <li><a href="#">Misbrug,</a></li>
+                        <li><a href="#">Sundhedstilbud,</a></li>
+                        <li><a href="#">Pårørerende,</a></li>
+                        <li><a href="#">Begravelseshjælp,</a></li>
+                        <li><a href="#">Afhængighed,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item4">
                 <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Miljø & Teknik</h4></a>
-                <a href="#">Affald & genbrug,</a>
-                <a href="#">Rottebekæmpelse,</a>
-                <a href="#">Parkering,</a>
-                <a href="#">Veje & Stier</a>
-                <a href="#">Se alle</a>
+                <a href="#"><h4>Bolig & Byggeri</h4></a>
+                <ul>
+                        <li>a href="#">Lokalplaner,</a></li>
+                        <li><a href="#">Boliger,</a></li>
+                        <li><a href="#">Byggetilladselser,</a></li>
+                        <li><a href="#">Bredbåndsdækning,</a></li>
+                        <li><a href="#">Skorstensfejning,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item5">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Kultur & Fritid</h4></a>
-                <a href="#">Idræt,</a>
-                <a href="#">Oplevelser,</a>
-                <a href="#">Aftenskoler,</a>
-                <a href="#">Foreninger,</a>
-                <a href="#">Lokaler,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Børn, unge og familie</h4></a>
+                <ul>
+                        <li><a href="#">Dagtilbud,</a></li>
+                        <li><a href="#">Orlov & Barse,l</a></li>
+                        <li><a href="#">Familieydelser,</a></li>
+                        <li><a href="#">Parforhold & Ægteskab,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item6">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Bolig & Byggeri</h4></a>
-                <a href="#">Lokalplaner,</a>
-                <a href="#">Boliger,</a>
-                <a href="#">Byggetilladselser,</a>
-                <a href="#">Bredbåndsdækning,</a>
-                <a href="#">Skorstensfejning,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Kultur & Fritid</h4></a>
+                <ul>
+                        <li><a href="#">Idræt,</a></li>
+                        <li><a href="#">Oplevelser,</a></li>
+                        <li><a href="#">Aftenskoler,</a></li>
+                        <li><a href="#">Foreninger,</a></li>
+                        <li><a href="#">Lokaler,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item7">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Sundhed & Sygdom</h4></a>
-                <a href="#">Misbrug,</a>
-                <a href="#">Sundhedstilbud,</a>
-                <a href="#">Pårørerende,</a>
-                <a href="#">Begravelseshjælp,</a>
-                <a href="#">Afhængighed,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Miljø & Teknik</h4></a>
+                <ul>
+                        <li><a href="#">Affald & genbrug,</a></li>
+                        <li><a href="#">Rottebekæmpelse,</a></li>
+                        <li><a href="#">Parkering,</a></li>
+                        <li><a href="#">Veje & Stier</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item8">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Personlig hjælp & støtte</h4></a>
-                <a href="#">Handicap,</a>
-                <a href="#">Familiestøtte,</a>
-                <a href="#">Vold,</a>
-                <a href="#">Rådgivning,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri">
+                </a><a href="#" ><h4>Ældre</h4></a>
+                <ul>
+                        <li><a href="#">Dagjem,</a></li>
+                        <li><a href="#">Demenstilbud,</a></li>
+                        <li><a href="#">Folkepension,</a></li>
+                        <li><a href="#">Rådgivning</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
         <div class="item9">
-                <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
-                <a href="#"><h4>Job & Uddannelse</h4></a>
-                <a href="#">Ledig,</a>
-                <a href="#">SU,</a>
-                <a href="#">Skoler,</a>
-                <a href="#">Økonomi,</a>
-                <a href="#">Nedsat arbejdsevne,</a>
-                <a href="#">Se alle</a>
+                <a href="#"><img src="img/placeholder-icon.png" alt="icon for bolig og byggeri"></a>
+                <a href="#"><h4>Personlig hjælp & støtte</h4></a>
+                <ul>
+                        <li><a href="#">Handicap,</a></li>
+                        <li><a href="#">Familiestøtte,</a></li>
+                        <li><a href="#">Vold,</a></li>
+                        <li><a href="#">Rådgivning,</a></li>
+                </ul>
+                <div class="sealle"><a href="#">SE ALLE</a></div>
         </div>
+
 </article>
 
 <div>
 
 </div>
 
-<a href="#">Ledig,</a>
-<a href="#">SU,</a>
-<a href="#">Skoler,</a>
-<a href="#">Økonomi,</a>
-<a href="#">Nedsat arbejdsevne,</a>
-<a href="#">Se alle</a>
 
 <?php include 'footer.php';?>
