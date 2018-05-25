@@ -60,7 +60,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-p {
+h2 {
+  font-size: 66px;
+  line-height: 75px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+a, p {
   font-size: 16px;
 }
 
@@ -206,6 +223,9 @@ footer {
   background: #293952;
   color: #ffffff;
   padding: 60px;
+}
+footer ul:first-child li:first-child {
+  color: red;
 }
 
 article.gallery ul li {
