@@ -357,4 +357,6 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 }
 .grid-container .item0 {
   grid-column: 1 / 4;
+  font-size: 25px;
+  padding: 45px 0 45px 0;
 }
