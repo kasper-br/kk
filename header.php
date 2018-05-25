@@ -73,5 +73,4 @@
         <span class="btn blue outline selfservice">Selvbetjening</span>
     </nav>
 </header>
-<main>
 

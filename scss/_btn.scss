@@ -36,4 +36,13 @@
             }
         }
     }
+    &.green {
+        border-radius: 100px;
+        color: $white;
+        background: $green;
+
+        &:hover {
+            background: darken($green, 10%);
+        }
+    }
 }

@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -67,6 +77,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/pas.jpg": {
+		"ft": 16384,
+		"iS": 398666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/pas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/sundhed-sygedom.png": {
 		"ft": 32768,
 		"iS": 13845,
@@ -77,6 +98,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
 		},
 	"\/js\/bxslider.js": {
 		"ft": 64,
@@ -207,6 +235,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_passport.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_passport.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

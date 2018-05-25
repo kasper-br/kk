@@ -93,7 +93,7 @@ nav {
         }
 
         .btn {
-            @media screen and (max-width: $xs) {
+            @media screen and (max-width: $sm) {
                 position: absolute;
                 top: 20px;
                 right: 15px;
