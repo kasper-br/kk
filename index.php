@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 
-<article>
+<article class="gallery">
     <ul class="slideshow">
         <li>
             <figure>
