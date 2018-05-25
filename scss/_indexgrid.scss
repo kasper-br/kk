@@ -1,0 +1,17 @@
+.grid-container {
+        background-color: red;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        grid-gap: 2px;
+
+        div{
+                a {
+                        text-decoration: none;
+                        img {
+                                width: 87.5px;
+                                height: auto;
+                        }
+                }
+        }
+}
