@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -142,13 +132,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.php",
-		"oF": 0
 		},
 	"\/js\/bxslider.js": {
 		"ft": 64,
