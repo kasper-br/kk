@@ -136,7 +136,7 @@
 
 <article class="newsgrid">
         <div class="item1">
-                <img src="" alt="">
+                <img src="img/nyhed1.jpg" alt="">
                 <div class="">
                         <h4>Storm på vej</h4>
                         <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
@@ -144,7 +144,7 @@
                 </div>
         </div>
         <div class="item2">
-                <img src="" alt="">
+                <img src="img/nyhed2.jpg" alt="">
                 <div class="">
                         <h4>Nye Stier</h4>
                         <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
@@ -152,7 +152,7 @@
                 </div>
         </div>
         <div class="item3">
-                <img src="" alt="">
+                <img src="img/nyhed3.jpg" alt="">
                 <div class="">
                         <h4>Åben hus</h4>
                         <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
