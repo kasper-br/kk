@@ -34,6 +34,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/borgerservice.png": {
+		"ft": 32768,
+		"iS": 15887,
+		"oA": 0,
+		"oAP": "\/img\/borgerservice.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/flytning.png": {
 		"ft": 32768,
 		"iS": 874166,
@@ -276,6 +287,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_newsgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_newsgrid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_passport.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -329,7 +353,7 @@
 		"uL": 1
 		},
 	"\/scss\/styles.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,

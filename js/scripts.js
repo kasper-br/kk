@@ -14,7 +14,12 @@ $(document).ready( function() {
 	//List accordion
 	$( "#accordion" ).accordion({
 		collapsible: true,
-		active : 'none'
+		active : 'none',
+		heightStyle: 'content'
+	});
+
+	$('.gethelp').on('click', function() {
+		alert('123 guide');
 	});
 
 });

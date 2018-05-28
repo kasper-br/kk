@@ -24,7 +24,7 @@
         </ul>
     </nav>
     <nav class="mainmenu">
-        <a href="#" class="logo">
+        <a href="index.php" class="logo">
             <svg width="243px" height="61px" viewBox="0 0 243 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <polygon id="path-1" points="0.7826 0.6591 10.5997667 0.6591 10.5997667 12.1875 0.7826 12.1875"></polygon>

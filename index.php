@@ -8,7 +8,7 @@
                 <figcaption>
                     <h2>Vi holder ekstra åbnet til bestilling af pas</h2>
                     <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</p>
-                    <a class="btn outline blue" href="#">Bestil pas her</a>
+                    <a class="btn outline blue" href="pas.php">Bestil pas her</a>
                 </figcaption>
             </figure>
         </li>
@@ -31,7 +31,7 @@
                 <a href="#"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
                 <a href="#"><h4>Borgerservice</h4></a>
                 <ul>
-                        <li><a href="#">Pas,</a></li>
+                        <li><a href="pas.php">Pas,</a></li>
                         <li><a href="#">NemID,</a></li>
                         <li><a href="#">Meld at du flytter,</a></li>
                         <li><a href="#">Kørekort,</a></li>
