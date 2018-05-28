@@ -265,11 +265,43 @@ footer {
   background: #293952;
   color: #ffffff;
   padding: 60px;
+  margin-top: 60px;
 }
-footer ul:first-child li:first-child {
-  color: red;
+footer div ul {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+footer div ul li {
+  margin-bottom: 5px;
+}
+footer div ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer div ul .first {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.14;
+}
+footer .btn {
+  margin-top: 50px;
+  text-align: center;
 }
 
+@media screen and (min-width: 599px) {
+  .footergrid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 1099px) {
+  .footergrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1099px;
+    margin: auto;
+  }
+}
 article.gallery ul li {
   padding: 15px;
 }
@@ -368,7 +400,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 
 .indexgrid {
   width: 100%;
-  margin: auto;
+  margin: 100px auto 0px;
 }
 .indexgrid div {
   text-align: center;
@@ -426,6 +458,9 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   padding-left: 20px;
   padding-right: 20px;
 }
+.indexgrid .item5, .indexgrid .item6, .indexgrid .item7, .indexgrid .item8, .indexgrid .item9 {
+  opacity: 0.5;
+}
 
 @media screen and (min-width: 599px) {
   .indexgrid {
@@ -462,6 +497,11 @@ figure.passport.topimage {
   width: 100%;
   height: 200px;
 }
+@media screen and (min-width: 767px) {
+  figure.passport.topimage {
+    height: 350px;
+  }
+}
 
 main {
   max-width: 1099px;
@@ -480,6 +520,8 @@ article.text {
   position: relative;
   margin-top: -20px;
   width: calc(100% - 20px);
+  -webkit-box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+          box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
 }
 @media screen and (min-width: 767px) {
   article.text {
@@ -494,7 +536,7 @@ article.text .btn {
   margin: 30px 0 40px;
 }
 article.text h2 {
-  margin-bottom: 20px;
+  font-size: 40px;
 }
 article.text #accordion {
   list-style: none;
@@ -508,6 +550,8 @@ article.text #accordion h3 {
       -ms-user-select: none;
           user-select: none;
   position: relative;
+  font-size: 20px;
+  line-height: 35px;
 }
 article.text #accordion h3:after {
   content: '';
@@ -533,7 +577,7 @@ article.text #accordion li {
   margin-bottom: 0;
 }
 article.text #accordion li .ui-accordion-content-active {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 aside {
@@ -543,6 +587,9 @@ aside {
   aside {
     width: 30%;
     float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
   }
 }
 aside section {
@@ -571,4 +618,75 @@ aside section h4 {
 }
 aside section .btn {
   margin-top: 15px;
+}
+
+.gethelp {
+  display: inline-block;
+  margin-left: 15px;
+  color: #293952;
+  position: relative;
+  cursor: pointer;
+}
+.gethelp:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #293952;
+}
+
+.newsgrid {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.newsgrid > div {
+  background-color: white;
+  -webkit-box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+          box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+}
+.newsgrid > div img {
+  max-width: 100%;
+  height: auto;
+}
+.newsgrid > div h4 {
+  padding: 21px 0px 12px 0px;
+  margin-left: 12px;
+}
+.newsgrid > div p {
+  margin: 0px 12px 28px;
+}
+.newsgrid > div .btn {
+  margin: 0px 12px 38px;
+}
+.newsgrid .item0 {
+  font-size: 25px;
+  padding: 45px 0 45px 0;
+}
+
+.latestnews {
+  text-align: center;
+  padding: 60px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 767px) {
+  .newsgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    padding: 0px 10px 0px;
+  }
+
+  .item0 {
+    grid-column: 1 / 4;
+  }
+}
+@media screen and (min-width: 1099px) {
+  .newsgrid {
+    width: 1099px;
+    margin: 0px auto 30px;
+  }
 }

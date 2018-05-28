@@ -4,13 +4,50 @@ footer {
     padding: 60px;
     margin-top: 60px;
 
-    ul {
-        &:first-child {
-            li {
-                &:first-child {
-                    color: red;
+    div{
+            ul {
+                    list-style-type: none;
+                    margin-bottom: 15px;
+
+                    li {
+                            margin-bottom: 5px;
+
+
+                            a{
+                                    text-decoration: none;
+                                    color: white;
+                                }
+
+                        }
+
+                        .first {
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 1.14;
+                            }
                 }
-            }
         }
-    }
+
+        .btn {
+                margin-top: 50px;
+                text-align: center;
+        }
+}
+
+@media screen and (min-width: $sm) {
+        .footergrid {
+                display: grid;
+                grid-template-columns: auto auto;
+        }
+
+}
+
+@media screen and (min-width: $lg) {
+        .footergrid {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                width: $lg;
+                margin: auto;
+        }
+
 }

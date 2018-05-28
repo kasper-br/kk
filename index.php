@@ -7,14 +7,8 @@
                 <img src="img/pas-bestilling.png" alt="Bestil tid til dit pas i dag">
                 <figcaption>
                     <h2>Vi holder ekstra åbnet til bestilling af pas</h2>
-<<<<<<< HEAD
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</p>
-                    <a class="btn outline blue" href="pas.php">Bestil pas her</a>
-=======
-                    <p>Bestil dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber.
-Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt og hurtigt og du kan også betale via nettet. </p>
+                    <p>Bestil dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt og hurtigt og du kan også betale via nettet. </p>
                     <a class="btn outline blue" href="#">Bestil pas her</a>
->>>>>>> 090840037990669800f88e04c185557f720c2908
                 </figcaption>
             </figure>
         </li>
@@ -23,9 +17,7 @@ Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvb
                 <img src="img/flytning.png" alt="Husk at flytte din adresse">
                 <figcaption>
                     <h2>Vidste du at du kan melde flytning online?</h2>
-                    <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen.
-
-Du kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
+                    <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen. nDu kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
                     <a class="btn outline blue" href="#">Meld flytning</a>
                 </figcaption>
             </figure>
