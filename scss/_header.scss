@@ -1,3 +1,10 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    border-bottom: 1px solid #dedede;
+}
+
 nav {
 
     &.submenu {
@@ -94,7 +101,7 @@ nav {
 
         .btn {
             user-select: none;
-            
+
             @media screen and (max-width: $sm) {
                 position: absolute;
                 top: 20px;
