@@ -19,38 +19,89 @@ article.text {
     background: $white;
     position: relative;
     margin-top: -20px;
-    float: left;
-    width: 70%;
+    width: calc(100% - 20px);
 
     @media screen and (min-width: $md) {
         margin: 0;
         margin-top: -60px;
         padding: 50px;
+        width: 70%;
+        float: left;
     }
 
     .btn {
         margin: 30px 0 40px;
     }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    #accordion {
+        list-style: none;
+    
+        h3 {
+            color: $blue;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                background-image: url("data:image/svg+xml, %3Csvg width='20px' height='11px' viewBox='0 0 20 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Subpage' transform='translate(-765.000000, -1080.000000)' fill='%23293952'%3E %3Cg id='Group-2' transform='translate(162.000000, 1068.000000)'%3E %3Cpath d='M617.845756,17.1839803 L608.915466,8.15932539 C608.7051,7.94689154 608.368029,7.94689154 608.157663,8.15932539 C607.947446,8.37190958 607.947446,8.7125354 608.157663,8.92511959 L616.707091,17.5646975 L608.157663,26.2045259 C607.947446,26.4169096 607.947446,26.7577359 608.157663,26.9701196 C608.260912,27.0744573 608.399619,27.1304348 608.534606,27.1304348 C608.669444,27.1304348 608.808349,27.0783662 608.9114,26.9701196 L617.841887,17.9456652 C618.052055,17.7371903 618.052055,17.3924552 617.845756,17.1839803 Z' id='Fill-1' transform='translate(613.000000, 17.565217) rotate(90.000000) translate(-613.000000, -17.565217) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+                width: 20px;
+                height: 10px;
+                transition: 300ms ease;
+            }
+
+            &.ui-accordion-header-active {
+                &:after {
+                    transform: rotate(-180deg);
+                }
+            }
+        }
+    
+        li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid $blue;
+            padding: 15px 10px;
+            margin-bottom: 0;
+    
+            .ui-accordion-content-active {
+                margin-top: 15px;
+            }
+        }
+    }
 }
 
 aside {
-    float: left;
-    width: 30%;
+    width: 100%;
+    @media screen and (min-width: $md) {
+        width: 30%;    
+        float: left;
+    }
 
     section {
-        margin: 0;
+        margin: 20px 10px;
         padding: 0;
         max-width: 100%;
-        margin: 30px 10px;
         padding: 30px;
         width: auto;
-        
+
+        @media screen and (min-width: $md) {
+            margin: 15px 0px 30px 15px;
+        }
+
         &:nth-of-type(1) {
             background: $blue;
             color: white;
 
             @media screen and (min-width: $md) {
-                margin: 0;
+                // margin: 0;
             }
 
         }

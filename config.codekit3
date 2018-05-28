@@ -66,6 +66,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/nyhed1.jpg": {
+		"ft": 16384,
+		"iS": 183708,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/nyhed1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/nyhed2.jpg": {
+		"ft": 16384,
+		"iS": 178331,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/nyhed2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/nyhed3.jpg": {
+		"ft": 16384,
+		"iS": 274904,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/nyhed3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/pas-bestilling.png": {
 		"ft": 32768,
 		"iS": 897578,
@@ -86,6 +119,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/placeholder-icon.png": {
+		"ft": 32768,
+		"iS": 16749,
+		"oA": 0,
+		"oAP": "\/img\/placeholder-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/sundhed-sygedom.png": {
@@ -113,6 +157,16 @@
 		"oA": 1,
 		"oAP": "\/js\/bxslider-min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery-ui.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-ui-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
