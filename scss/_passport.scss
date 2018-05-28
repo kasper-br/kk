@@ -5,6 +5,9 @@ figure.passport {
         background-position: center;
         width: 100%;
         height: 200px;
+        @media screen and (min-width: $md) {
+            height: 350px;
+        }
     }   
 }
 main {
@@ -20,6 +23,7 @@ article.text {
     position: relative;
     margin-top: -20px;
     width: calc(100% - 20px);
+    box-shadow: 2px 1px 4px 0 rgba(0,0,0,0.18);
 
     @media screen and (min-width: $md) {
         margin: 0;
@@ -34,7 +38,7 @@ article.text {
     }
 
     h2 {
-        margin-bottom: 20px;
+        font-size: 40px;
     }
 
     #accordion {
@@ -46,6 +50,9 @@ article.text {
             cursor: pointer;
             user-select: none;
             position: relative;
+            font-size: 20px;
+            line-height: 35px;
+            
             &:after {
                 content: '';
                 position: absolute;
@@ -72,7 +79,7 @@ article.text {
             margin-bottom: 0;
     
             .ui-accordion-content-active {
-                margin-top: 15px;
+                margin-top: 5px;
             }
         }
     }
@@ -83,6 +90,8 @@ aside {
     @media screen and (min-width: $md) {
         width: 30%;    
         float: left;
+        position: sticky;
+        top: 0px;
     }
 
     section {
@@ -119,5 +128,23 @@ aside {
         .btn {
             margin-top: 15px;
         }
+    }
+}
+
+.gethelp {
+    display: inline-block;
+    margin-left: 15px;
+    color: $blue;
+    position: relative;
+    cursor: pointer;
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: $blue;
     }
 }
