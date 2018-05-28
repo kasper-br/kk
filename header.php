@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/bxslider.js"></script>
 
 </head>
