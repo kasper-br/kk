@@ -148,7 +148,7 @@
                 <img src="img/nyhed2.jpg" alt="">
                 <div class="">
                         <h4>Nye Stier</h4>
-                        <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
+                        <p>Solrød Kommune og Køge Kommune har anlagt en dobbeltrettet cykelsti fra rundkørslen ved Egedesvej/Nordhøj til Lille Skensved, herefter ad Naurbjergvej og Yderholmvej gennem Naurbjerg frem til Jersie.</p>
                         <a href="#" class="btn blue outline">Læs mere om stormen</a>
                 </div>
         </div>
