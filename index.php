@@ -67,7 +67,7 @@
                 <a href="#"><img src="img/bolig-byggeri.png" alt="icon for bolig og byggeri"></a>
                 <a href="#"><h4>Bolig & Byggeri</h4></a>
                 <ul>
-                        <li>a href="#">Lokalplaner,</a></li>
+                        <li><a href="#">Lokalplaner,</a></li>
                         <li><a href="#">Boliger,</a></li>
                         <li><a href="#">Byggetilladselser,</a></li>
                         <li><a href="#">Bredbåndsdækning,</a></li>
