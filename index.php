@@ -7,8 +7,14 @@
                 <img src="img/pas-bestilling.png" alt="Bestil tid til dit pas i dag">
                 <figcaption>
                     <h2>Vi holder ekstra åbnet til bestilling af pas</h2>
+<<<<<<< HEAD
                     <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</p>
                     <a class="btn outline blue" href="pas.php">Bestil pas her</a>
+=======
+                    <p>Bestil dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber.
+Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt og hurtigt og du kan også betale via nettet. </p>
+                    <a class="btn outline blue" href="#">Bestil pas her</a>
+>>>>>>> 090840037990669800f88e04c185557f720c2908
                 </figcaption>
             </figure>
         </li>
@@ -17,7 +23,9 @@
                 <img src="img/flytning.png" alt="Husk at flytte din adresse">
                 <figcaption>
                     <h2>Vidste du at du kan melde flytning online?</h2>
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen.
+
+Du kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
                     <a class="btn outline blue" href="#">Bestil pas her</a>
                 </figcaption>
             </figure>
@@ -133,10 +141,11 @@
         </div>
 
 </article>
-
+<h3 class="latestnews">Seneste Nyheder</h3>
 <article class="newsgrid">
+
         <div class="item1">
-                <img src="" alt="">
+                <img src="img/nyhed1.jpg" alt="">
                 <div class="">
                         <h4>Storm på vej</h4>
                         <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
@@ -144,15 +153,15 @@
                 </div>
         </div>
         <div class="item2">
-                <img src="" alt="">
+                <img src="img/nyhed2.jpg" alt="">
                 <div class="">
                         <h4>Nye Stier</h4>
-                        <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
+                        <p>Solrød Kommune og Køge Kommune har anlagt en dobbeltrettet cykelsti fra rundkørslen ved Egedesvej/Nordhøj til Lille Skensved, herefter ad Naurbjergvej og Yderholmvej gennem Naurbjerg frem til Jersie.</p>
                         <a href="#" class="btn blue outline">Læs mere om stormen</a>
                 </div>
         </div>
         <div class="item3">
-                <img src="" alt="">
+                <img src="img/nyhed3.jpg" alt="">
                 <div class="">
                         <h4>Åben hus</h4>
                         <p>Tirsdag den 20. marts valgte Køge Byråd at arbejde videre med et kystsikringsprojekt, der dækker hele Køge Kommunes 11 km lange kystlinje.</p>
