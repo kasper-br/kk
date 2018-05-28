@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -144,6 +154,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
 	"\/js\/bxslider.js": {
 		"ft": 64,
 		"ma": 0,
@@ -261,6 +278,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_indexgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_indexgrid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -270,6 +300,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_newsgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_newsgrid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -323,6 +366,19 @@
 		"oA": 1,
 		"oAP": "\/scss\/_typo.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}
