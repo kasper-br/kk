@@ -93,6 +93,8 @@ nav {
         }
 
         .btn {
+            user-select: none;
+            
             @media screen and (max-width: $sm) {
                 position: absolute;
                 top: 20px;

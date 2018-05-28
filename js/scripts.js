@@ -2,7 +2,7 @@ $(document).ready( function() {
    
 	//Front slider
 	var bannerslider = $('.slideshow').bxSlider({
-		slideMargin: 5,
+		// slideMargin: 5,
 		pager: true,
 		controls: false,
 		auto: true,
