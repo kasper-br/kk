@@ -365,37 +365,38 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   background: #293952;
 }
 
-.grid-container {
+.indexgrid {
   width: 100%;
   margin: auto;
 }
-.grid-container div {
+.indexgrid div {
   text-align: center;
   padding: 25px;
 }
-.grid-container div a {
+.indexgrid div a {
   text-decoration: none;
   color: black;
   font-size: 18px;
   position: relative;
 }
-.grid-container div a img {
+.indexgrid div a img {
   width: 150px;
   height: auto;
 }
-.grid-container div a h4 {
+.indexgrid div a h4 {
   font-size: 26px;
 }
-.grid-container div ul {
+.indexgrid div ul {
   list-style-type: none;
   margin: 0;
   padding: 15px 0px;
   margin: auto;
 }
-.grid-container div ul li {
+.indexgrid div ul li {
   display: inline-block;
+  margin: 0px 2px 2px;
 }
-.grid-container div ul li a::after {
+.indexgrid div ul li a::after {
   content: ' ';
   position: absolute;
   width: 100%;
@@ -404,7 +405,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   bottom: 0;
   left: 0;
 }
-.grid-container div .sealle {
+.indexgrid div .sealle {
   display: block;
   padding: 0px;
   font-weight: 900;
@@ -412,21 +413,21 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   color: #293952;
   font-size: 16px;
 }
-.grid-container .item0 {
+.indexgrid .item0 {
   font-size: 25px;
   padding: 45px 0 45px 0;
 }
-.grid-container .item1 ul {
+.indexgrid .item1 ul {
   padding-left: 20px;
   padding-right: 20px;
 }
-.grid-container .item6 ul {
+.indexgrid .item6 ul {
   padding-left: 20px;
   padding-right: 20px;
 }
 
 @media screen and (min-width: 599px) {
-  .grid-container {
+  .indexgrid {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 25px;
@@ -437,7 +438,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   }
 }
 @media screen and (min-width: 767px) {
-  .grid-container {
+  .indexgrid {
     grid-template-columns: auto auto auto;
     grid-row-gap: 25px;
   }
@@ -447,7 +448,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   }
 }
 @media screen and (min-width: 1099px) {
-  .grid-container {
+  .indexgrid {
     width: 1099px;
   }
 }
