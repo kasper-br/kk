@@ -21,7 +21,7 @@ Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvb
                     <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen.
 
 Du kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
-                    <a class="btn outline blue" href="#">Bestil pas her</a>
+                    <a class="btn outline blue" href="#">Meld flytning</a>
                 </figcaption>
             </figure>
         </li>
