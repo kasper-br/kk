@@ -73,6 +73,10 @@
                         padding-right: 20px;
                 }
         }
+
+        .item5, .item6, .item7, .item8, .item9, {
+                opacity: 0.5;
+        }
 }
 
 @media screen and (min-width: $sm) {

@@ -17,8 +17,13 @@
                 <img src="img/flytning.png" alt="Husk at flytte din adresse">
                 <figcaption>
                     <h2>Vidste du at du kan melde flytning online?</h2>
+<<<<<<< HEAD
                     <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen. Du kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
                     <a class="btn outline blue" href="#">Bestil pas her</a>
+=======
+                    <p>Når du flytter hjemmefra, har du pligt til senest fem dage efter flytningen at melde flytning til kommunen. nDu kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
+                    <a class="btn outline blue" href="#">Meld flytning</a>
+>>>>>>> 7ce56176b1d80a63ade9ba0f01d2542855b75d90
                 </figcaption>
             </figure>
         </li>
