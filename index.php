@@ -133,8 +133,9 @@
         </div>
 
 </article>
-
+<h3 class="latestnews">Seneste Nyheder</h3>
 <article class="newsgrid">
+
         <div class="item1">
                 <img src="img/nyhed1.jpg" alt="">
                 <div class="">

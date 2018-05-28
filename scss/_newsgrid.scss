@@ -1,4 +1,62 @@
 .newsgrid {
-        background-color: #ffffff;
-        box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+        background-color: transparent;
+        width: 100%;
+        margin-bottom: 30px;
+
+        > div{
+                background-color: white;
+                box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+
+                img{
+                        max-width: 100%;
+                        height: auto;
+                }
+
+                h4{
+                        padding: 21px 0px 12px 0px;
+                        margin-left: 12px;
+                }
+
+                p {
+                        margin: 0px 12px 28px;
+                }
+
+                .btn {
+                        margin: 0px 12px 38px;
+                }
+        }
+
+        .item0{
+                font-size: 25px;
+                padding: 45px 0 45px 0;
+        }
+}
+
+.latestnews{
+        text-align: center;
+        padding: 60px;
+        margin-top: 50px;
+}
+
+@media screen and (min-width: $md) {
+
+        .newsgrid {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 25px;
+                padding: 0px 10px 0px;
+
+        }
+
+        .item0{
+                grid-column: 1 / 4;
+        }
+}
+
+@media screen and (min-width: $lg) {
+        .newsgrid {
+                width: $lg;
+                margin: 0px auto 30px;
+        }
+
 }

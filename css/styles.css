@@ -368,7 +368,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 
 .indexgrid {
   width: 100%;
-  margin: auto;
+  margin: 100px auto 0px;
 }
 .indexgrid div {
   text-align: center;
@@ -571,4 +571,58 @@ aside section h4 {
 }
 aside section .btn {
   margin-top: 15px;
+}
+
+.newsgrid {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.newsgrid > div {
+  background-color: white;
+  -webkit-box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+          box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
+}
+.newsgrid > div img {
+  max-width: 100%;
+  height: auto;
+}
+.newsgrid > div h4 {
+  padding: 21px 0px 12px 0px;
+  margin-left: 12px;
+}
+.newsgrid > div p {
+  margin: 0px 12px 28px;
+}
+.newsgrid > div .btn {
+  margin: 0px 12px 38px;
+}
+.newsgrid .item0 {
+  font-size: 25px;
+  padding: 45px 0 45px 0;
+}
+
+.latestnews {
+  text-align: center;
+  padding: 60px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 767px) {
+  .newsgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    padding: 0px 10px 0px;
+  }
+
+  .item0 {
+    grid-column: 1 / 4;
+  }
+}
+@media screen and (min-width: 1099px) {
+  .newsgrid {
+    width: 1099px;
+    margin: 0px auto 30px;
+  }
 }
