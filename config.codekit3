@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/footer.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/footer.php",
-		"oF": 0
-		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -235,6 +228,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_footergrid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/_footergrid",
+		"oF": 0
+		},
 	"\/scss\/_frontpage-gallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -261,6 +261,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_indexgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_indexgrid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -270,6 +283,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_newsgrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_newsgrid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -323,6 +349,19 @@
 		"oA": 1,
 		"oAP": "\/scss\/_typo.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}

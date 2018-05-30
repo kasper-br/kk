@@ -9,13 +9,21 @@
     display: inline-block;
 
     &.blue {
+        border-radius: 100px;
+        color: $blue;
+        background: $white;
+
+        &:hover {
+            background: lighten($white, 10%);
+        }
+
         &.outline {
             border: 1px solid $blue;
             border-radius: 100px;
             color: $blue;
             background: transparent;
 
-            &:hover {
+            &:hover, &.selected {
                 background: $blue;
                 color: $white;
             }
@@ -23,6 +31,13 @@
     } 
 
     &.white {
+        border-radius: 100px;
+        color: $blue;
+        background: $white;
+
+        &:hover {
+            background: darken($white, 10%);
+        }
         &.outline {
             border: 1px solid $white;
             border-radius: 100px;
