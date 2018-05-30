@@ -12,6 +12,10 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/bxslider.js"></script>
 
+    <!-- <link rel="stylesheet" href="http://localhost:8888/localhost/studie/Eksamen/kk/css/styles.css">
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery.js"></script>
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery-ui.js"></script>
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/bxslider.js"></script> -->
 </head>
 <body>
     
