@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Velkommen til Køge Kommune</title>
+
 <?php include 'header.php';?>
 
 <article class="gallery">

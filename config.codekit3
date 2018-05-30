@@ -16,6 +16,13 @@
 		"oAP": "\/borgerservice\/pas\/index.php",
 		"oF": 0
 		},
+	"\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pas | Køge Kommune</title>
+
 <?php include 'header.php';?>
 
 <figure class="topimage passport"></figure>
