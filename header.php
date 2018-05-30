@@ -1,3 +1,8 @@
+<?php
+    $pasurl = 'pas.php';
+//    $pasurl = '/borgerservice/pas';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,7 +87,7 @@
             <div class="menu-wrapper">
                 <div class="featured">
                     <h3>Mest anvendte</h3>
-                    <a href="#" class="btn white">Pas</a>
+                    <a href="<?php echo $pasurl; ?>" class="btn white">Pas</a>
                     <a href="#" class="btn white">Sundhedskort</a>
                     <a href="#" class="btn white">Meld flytning</a>
                     <a href="#" class="btn white">Pension</a>
