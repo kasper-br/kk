@@ -62,7 +62,7 @@
 
                 .item0 {
                         font-size: 25px;
-                        padding: 45px 0 45px 0;
+                        padding: 80px 0 45px 0;
                 }
 
                 .item1{
@@ -81,6 +81,9 @@
 
                 .item5, .item6, .item7, .item8, .item9, {
                         opacity: 0.5;
+                }
+                .item7, .item8, .item9 {
+                        padding-bottom: 80px;
                 }
         }
 

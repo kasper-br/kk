@@ -1,6 +1,6 @@
 header {
-    position: sticky;
-    top: 0;
+    // position: sticky;
+    // top: 0;
     z-index: 99999;
     border-bottom: 1px solid #dedede;
 }
@@ -23,14 +23,42 @@ nav {
 
             li {
                 display: inline-block;
+                padding: 13px 30px;
+                position: relative;
+
+                &.active {
+                    a {
+                        text-decoration: none;
+                    }
+                    &:after {
+                        content: '';
+                        width: 80%;
+                        height: 7px;
+                        background: white;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        opacity: 1;
+                    }
+                }
 
                 a {
                     font-size: 16px;
                     font-weight: 900;
-                    padding: 13px 30px;
                     color: $white;
                     text-transform: uppercase;
                     display: block;
+                    position: relative;
+
+                    &:after {
+                        opacity: 0;
+                        transition: 300ms ease;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -128,7 +156,7 @@ nav {
         color: white;
 
         &.open {
-            max-height: 1000px;
+            max-height: 3000px;
 
             &:after {
                 display: block;
@@ -139,7 +167,7 @@ nav {
             padding: 20px;
 
             @media screen and (min-width: $lg) {
-                padding: 60px 0;
+                padding: 60px 0 90px;
             }
         }
 

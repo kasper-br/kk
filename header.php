@@ -24,7 +24,7 @@
 <header>
     <nav class="submenu">
         <ul>
-            <li><a href="#">Borger</a></li>
+            <li class="active"><a href="#">Borger</a></li>
             <li><a href="#">Erhverv</a></li>
             <li><a href="#">Kommune</a></li>
         </ul>
