@@ -14,7 +14,14 @@
                 }
 
                 .newswrapper{
-                        margin: 10px 25px 110px;
+                        margin: 10px 25px 0px;
+                        height: 275px;
+
+                        @media screen and (min-width: $md) {
+                                height: 300px;
+                        }
+
+
 
                         h3{
                                 // padding: 21px 0px 12px 0px;
