@@ -96,7 +96,7 @@
 
                 <ul id="megamenu">
                     <li>
-                        <h3>Hvordan booker jeg tid?</h3>
+                        <h3>Borgerservice</h3>
                         <div>
                             <p>
                             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
@@ -107,7 +107,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3>Hvordan ansøger jeg om et nyt pas?</h3>
+                        <h3>Børn, Unge & Familie</h3>
                         <div>
                             <p>
                             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
@@ -161,7 +161,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3>Mistet mit pas</h3>
+                        <h3>Ældre</h3>
                         <div>
                             <p>
                             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
@@ -172,7 +172,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3>Hvad koster et pas?</h3>
+                        <h3>Miljø & Teknik</h3>
                         <div>
                             <p>
                             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
@@ -183,7 +183,51 @@
                         </div>
                     </li>
                     <li>
-                        <h3>Regler om pas</h3>
+                        <h3>Kultur & Fritid</h3>
+                        <div>
+                            <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Bolig & Byggeri</h3>
+                        <div>
+                            <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Sundhed & Sygdom</h3>
+                        <div>
+                            <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Personlig hjælp & støtte</h3>
+                        <div>
+                            <p>
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Job & Uddannelse</h3>
                         <div>
                             <p>
                             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
