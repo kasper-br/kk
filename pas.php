@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pas | Køge Kommune</title>
+    <title>Bestille Pas - Køge Kommune</title>
     <meta name='description' content="Koege passport subpage. Made as an school assignment zealand institute of business and technology">
 
 
