@@ -14,7 +14,28 @@
         <h1>Pas</h1>
         <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
         <a class="btn green" href="#">Start her</a>
-        <span class="gethelp">Få hjælp til at bestille pas</span>
+
+        <section class="guide">
+            <h2>Guide til pasbestilling</h2>
+            <figure>
+                <div class="number">1</div>
+                <figcaption>
+                    Klik på den grønne "Start her"-knap. Herfra bliver du ført videre til et NemID login, hvor du skal logge ind.
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="number">2</div>
+                <figcaption>
+                    Når du er logget ind skal du bestille en tid på borgerService.
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="number">3</div>
+                <figcaption>
+                    På dagen for din tidsbestilling møder du ind på BorgerService og afslutter din pasbestilling.
+                </figcaption>
+            </figure>
+        </section>
 
         <h2>Yderelige informationer</h2>
 
@@ -28,11 +49,11 @@
                     <p>Alle nye pas skal indeholde fingeraftryk, så du får taget digitale fingeraftryk, når du bestiller et nyt pas. Dette gælder indtil videre ikke for børn under 12 år.</p>
                     <p>Du skal medbringe:</p>
                     <ul>
-                            <li>dit sidst udstedte pas, hvis passet skal fornys</li>
-                            <li>original dåbs- eller navneattest, hvis du ikke har et pas i forvejen</li>
-                            <li>fødselsattest, hvis du søger om pas til et unavngivet barn</li>
-                            <li>sundhedskort (sygesikringsbevis), hvis dit personnummer ikke fremgår af attesten eller af din billedlegitimation, og du ikke har et pas i forvejen. Men husk, det ikke er nok kun at medbringe dit sundhedskort.</li>
-                            <li>et vellignende foto, som lever op til billedkravene</li>
+                        <li>dit sidst udstedte pas, hvis passet skal fornys</li>
+                        <li>original dåbs- eller navneattest, hvis du ikke har et pas i forvejen</li>
+                        <li>fødselsattest, hvis du søger om pas til et unavngivet barn</li>
+                        <li>sundhedskort (sygesikringsbevis), hvis dit personnummer ikke fremgår af attesten eller af din billedlegitimation, og du ikke har et pas i forvejen. Men husk, det ikke er nok kun at medbringe dit sundhedskort.</li>
+                        <li>et vellignende foto, som lever op til billedkravene</li>
                     </ul>
                     <p>Det tager 11-15 hverdage, før du får dit nye pas.</p>
                     <p>Læs om regler for pasbilleder:</p>
@@ -151,7 +172,6 @@
             <h4>Bestil dit pas</h4>
             <p>Cras mattis consectetur purus sit amet fermentum lorem.</p>
             <a class="btn green" href="#">Start her</a>
-            <span class="gethelp">Få hjælp til at bestille pas</span>
         </section>
     </aside>
 </main>

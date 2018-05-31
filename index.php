@@ -47,18 +47,6 @@
                         <div class="sealle"><a href="#">SE ALLE</a></div>
                 </div>
                 <div class="item2">
-                        <a href="#"><img src="img/job-uddannelse.png" alt="icon forjob-uddannelse"></a>
-                        <a href="#"><h3>Job & Uddannelse</h3></a>
-                        <ul>
-                                <li><a href="#">Ledig,</a></li>
-                                <li><a href="#">SU,</a></li>
-                                <li><a href="#">Skoler,</a></li>
-                                <li><a href="#">Økonomi,</a></li>
-                                <li><a href="#">Nedsat arbejdsevne,</a></li>
-                        </ul>
-                        <div class="sealle"><a href="#">SE ALLE</a></div>
-                </div>
-                <div class="item3">
                         <a href="#"><img src="img/sundhed-sygedom.png" alt="icon for sundhed-sygedom"></a>
                         <a href="#"><h3>Sundhed & Sygdom</h3></a>
                         <ul>
@@ -67,6 +55,18 @@
                                 <li><a href="#">Pårørerende,</a></li>
                                 <li><a href="#">Begravelseshjælp,</a></li>
                                 <li><a href="#">Afhængighed,</a></li>
+                        </ul>
+                        <div class="sealle"><a href="#">SE ALLE</a></div>
+                </div>
+                <div class="item3">
+                        <a href="#"><img src="img/job-uddannelse.png" alt="icon forjob-uddannelse"></a>
+                        <a href="#"><h3>Job & Uddannelse</h3></a>
+                        <ul>
+                                <li><a href="#">Ledig,</a></li>
+                                <li><a href="#">SU,</a></li>
+                                <li><a href="#">Skoler,</a></li>
+                                <li><a href="#">Økonomi,</a></li>
+                                <li><a href="#">Nedsat arbejdsevne,</a></li>
                         </ul>
                         <div class="sealle"><a href="#">SE ALLE</a></div>
                 </div>

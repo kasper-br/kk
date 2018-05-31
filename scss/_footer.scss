@@ -1,19 +1,27 @@
 footer {
     background: $blue;
     color: $white;
-    padding: 60px;
+    padding: 40px;
     margin-top: 60px;
+
+    @media screen and (min-width: $sm) {
+        padding: 60px;
+    }
 
     div{
             ul {
                     list-style-type: none;
-                    margin-bottom: 15px;
-
+                    margin-bottom: 35px;
+                
+                    @media screen and (min-width: $sm) {
+                        margin-bottom: 15px;
+                    }
+                    
                     li {
                             margin-bottom: 5px;
 
 
-                            a{
+                            a {
                                     text-decoration: none;
                                     color: white;
                                 }
