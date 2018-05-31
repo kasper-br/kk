@@ -17,24 +17,24 @@
 
         <section class="guide">
             <h2>Guide til pasbestilling</h2>
-            <figure>
+            <div class="step">
                 <div class="number">1</div>
-                <figcaption>
+                <div class="text">
                     Klik på den grønne "Start her"-knap. Herfra bliver du ført videre til et NemID login, hvor du skal logge ind.
-                </figcaption>
-            </figure>
-            <figure>
+                </div>
+            </div>
+            <div class="step">
                 <div class="number">2</div>
-                <figcaption>
+                <div class="text">
                     Når du er logget ind skal du bestille en tid på borgerService.
-                </figcaption>
-            </figure>
-            <figure>
+                </div>
+            </div>
+            <div class="step">
                 <div class="number">3</div>
-                <figcaption>
+                <div class="text">
                     På dagen for din tidsbestilling møder du ind på BorgerService og afslutter din pasbestilling.
-                </figcaption>
-            </figure>
+                </div>
+            </div>
         </section>
 
         <h2>Yderelige informationer</h2>

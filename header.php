@@ -100,143 +100,113 @@
                     <li>
                         <h3>Borgerservice</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Helbredstillag</a></li>
+                                <li><a href="#">Pensionist</a></li>
+                                <li><a href="#">Økonomi</a></li>
+                                <li><a href="#">Folkeregister</a></li>
+                                <li><a href="#">Sundsikring</a></li>
+                                <li><a href="<?php echo $pasurl; ?>">Pas</a></li>
+                                <li><a href="#">Kørekort</a></li>
+                                <li><a href="#">NemID</a></li>
+                                <li><a href="#">Rådgivning</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Børn, Unge & Familie</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Børn, Unge & Familie</a></li>
+                                <li><a href="#">Link til underkategori til Børn, Unge & Familie</a></li>
+                                <li><a href="#">Link til underkategori til Børn, Unge & Familie</a></li>
+                                <li><a href="#">Link til underkategori til Børn, Unge & Familie</a></li>
+                                <li><a href="#">Link til underkategori til Børn, Unge & Familie</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Ældre</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Ældre</a></li>
+                                <li><a href="#">Link til underkategori til Ældre</a></li>
+                                <li><a href="#">Link til underkategori til Ældre</a></li>
+                                <li><a href="#">Link til underkategori til Ældre</a></li>
+                                <li><a href="#">Link til underkategori til Ældre</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Miljø & Teknik</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Miljø & Teknik</a></li>
+                                <li><a href="#">Link til underkategori til Miljø & Teknik</a></li>
+                                <li><a href="#">Link til underkategori til Miljø & Teknik</a></li>
+                                <li><a href="#">Link til underkategori til Miljø & Teknik</a></li>
+                                <li><a href="#">Link til underkategori til Miljø & Teknik</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Kultur & Fritid</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Kultur & Fritid</a></li>
+                                <li><a href="#">Link til underkategori til Kultur & Fritid</a></li>
+                                <li><a href="#">Link til underkategori til Kultur & Fritid</a></li>
+                                <li><a href="#">Link til underkategori til Kultur & Fritid</a></li>
+                                <li><a href="#">Link til underkategori til Kultur & Fritid</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Bolig & Byggeri</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Bolig & Byggeri</a></li>
+                                <li><a href="#">Link til underkategori til Bolig & Byggeri</a></li>
+                                <li><a href="#">Link til underkategori til Bolig & Byggeri</a></li>
+                                <li><a href="#">Link til underkategori til Bolig & Byggeri</a></li>
+                                <li><a href="#">Link til underkategori til Bolig & Byggeri</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Sundhed & Sygdom</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Sundhed & Sygdom</a></li>
+                                <li><a href="#">Link til underkategori til Sundhed & Sygdom</a></li>
+                                <li><a href="#">Link til underkategori til Sundhed & Sygdom</a></li>
+                                <li><a href="#">Link til underkategori til Sundhed & Sygdom</a></li>
+                                <li><a href="#">Link til underkategori til Sundhed & Sygdom</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Personlig hjælp & støtte</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Personlig hjælp & støtte</a></li>
+                                <li><a href="#">Link til underkategori til Personlig hjælp & støtte</a></li>
+                                <li><a href="#">Link til underkategori til Personlig hjælp & støtte</a></li>
+                                <li><a href="#">Link til underkategori til Personlig hjælp & støtte</a></li>
+                                <li><a href="#">Link til underkategori til Personlig hjælp & støtte</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
                         <h3>Job & Uddannelse</h3>
                         <div>
-                            <p>
-                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                            </p>
+                            <ul>
+                                <li><a href="#">Link til underkategori til Job & Uddannelse</a></li>
+                                <li><a href="#">Link til underkategori til Job & Uddannelse</a></li>
+                                <li><a href="#">Link til underkategori til Job & Uddannelse</a></li>
+                                <li><a href="#">Link til underkategori til Job & Uddannelse</a></li>
+                                <li><a href="#">Link til underkategori til Job & Uddannelse</a></li>
+                            </ul>
                         </div>
                     </li>
                 </ul>

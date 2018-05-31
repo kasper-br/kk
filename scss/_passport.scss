@@ -22,15 +22,14 @@ section.guide {
     margin-top: 30px;
     margin-bottom: 30px;
 
-    figure {
+    .step {
         display: flex;
         flex-direction: row;
 
-        .number, figcaption {
+        .number, .text {
             align-self: center;
             padding: 5px 20px 20px 0;
         }
-
         .number {
             font-size: 50px;
             font-weight: 900;
