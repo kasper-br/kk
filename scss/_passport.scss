@@ -8,7 +8,7 @@ figure.passport {
         @media screen and (min-width: $md) {
             height: 350px;
         }
-    }   
+    }
 }
 main {
     @include clearfix;
@@ -43,7 +43,8 @@ article.text {
 
     #accordion {
         list-style: none;
-    
+
+
         h3 {
             color: $blue;
             font-weight: 600;
@@ -52,7 +53,7 @@ article.text {
             position: relative;
             font-size: 20px;
             line-height: 35px;
-            
+
             &:after {
                 content: '';
                 position: absolute;
@@ -71,15 +72,24 @@ article.text {
                 }
             }
         }
-    
+
         li {
             margin-bottom: 20px;
             border-bottom: 1px solid $blue;
             padding: 15px 10px;
             margin-bottom: 0;
-    
+
             .ui-accordion-content-active {
                 margin-top: 5px;
+            }
+
+            ul {
+                    margin-bottom: 1em;
+                    li{
+                            border: none;
+                            padding: 0px;
+                            margin-left: 2em;
+                    }
             }
         }
     }
@@ -88,7 +98,7 @@ article.text {
 aside {
     width: 100%;
     @media screen and (min-width: $md) {
-        width: 30%;    
+        width: 30%;
         float: left;
         position: sticky;
         top: 0px;
