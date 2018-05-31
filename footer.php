@@ -43,6 +43,7 @@
 </footer>
 
 <script src="js/scripts.js"></script>
+<!-- <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/scripts.js"></script> -->
 
 </body>
 </html>

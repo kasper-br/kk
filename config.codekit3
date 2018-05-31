@@ -9,6 +9,20 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/borgerservice\/pas\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/borgerservice\/pas\/index.php",
+		"oF": 0
+		},
+	"\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
 	"\/header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -136,6 +150,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
+		"oF": 0
 		},
 	"\/js\/bxslider.js": {
 		"ft": 64,

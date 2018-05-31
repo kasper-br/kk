@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Pas | Køge Kommune</title>
-
-<?php include 'header.php';?>
+<?php include '../../header.php';?>
 
 <figure class="topimage passport"></figure>
 
@@ -134,4 +129,4 @@
     </aside>
 </main>
 
-<?php include 'footer.php';?>
+<?php include '../../footer.php';?> 

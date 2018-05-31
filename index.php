@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Velkommen til Køge Kommune</title>
+
 <?php include 'header.php';?>
 
 <article class="gallery">
@@ -8,7 +13,7 @@
                 <figcaption>
                     <h2>Vi holder ekstra åbnet til bestilling af pas</h2>
                     <p>Bestil dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt og hurtigt og du kan også betale via nettet. </p>
-                    <a class="btn outline blue" href="#">Bestil pas her</a>
+                    <a class="btn outline blue" href="<?php echo $pasurl; ?>">Bestil pas her</a>
                 </figcaption>
             </figure>
         </li>
@@ -31,7 +36,7 @@
                 <a href="#"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
                 <a href="#"><h4>Borgerservice</h4></a>
                 <ul>
-                        <li><a href="pas.php">Pas,</a></li>
+                        <li><a href="<?php echo $pasurl; ?>">Pas,</a></li>
                         <li><a href="#">NemID,</a></li>
                         <li><a href="#">Meld at du flytter,</a></li>
                         <li><a href="#">Kørekort,</a></li>

@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php
+    $pasurl = 'pas.php';
+//    $pasurl = '/borgerservice/pas';
+?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Køge Kommune</title>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -12,6 +12,10 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/bxslider.js"></script>
 
+    <!-- <link rel="stylesheet" href="http://localhost:8888/localhost/studie/Eksamen/kk/css/styles.css">
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery.js"></script>
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery-ui.js"></script>
+    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/bxslider.js"></script> -->
 </head>
 <body>
 
@@ -78,7 +82,7 @@
             <div class="menu-wrapper">
                 <div class="featured">
                     <h3>Mest anvendte</h3>
-                    <a href="#" class="btn white">Pas</a>
+                    <a href="<?php echo $pasurl; ?>" class="btn white">Pas</a>
                     <a href="#" class="btn white">Sundhedskort</a>
                     <a href="#" class="btn white">Meld flytning</a>
                     <a href="#" class="btn white">Pension</a>
