@@ -10,12 +10,36 @@ figure.passport {
         }
     }
 }
+
 main {
     @include clearfix;
     max-width: $lg;
     margin: 0 auto;
 }
 
+section.guide {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .step {
+        display: flex;
+        flex-direction: row;
+
+        .number, .text {
+            align-self: center;
+            padding: 5px 20px 20px 0;
+        }
+        .number {
+            font-size: 50px;
+            font-weight: 900;
+            color: $blue;
+        }        
+    }
+}
+
+
+//TEXT ARTICLE
 article.text {
     padding: 20px;
     margin: 0 10px;
@@ -37,8 +61,16 @@ article.text {
         margin: 30px 0 40px;
     }
 
+    h1 {
+        margin-bottom: 20px;
+    }
+
     h2 {
-        font-size: 40px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        @media screen and (min-width: $sm) {
+            font-size: 40px;   
+        }
     }
 
     #accordion {
@@ -95,6 +127,7 @@ article.text {
     }
 }
 
+//ASIDE
 aside {
     width: 100%;
     @media screen and (min-width: $md) {
