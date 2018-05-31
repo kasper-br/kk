@@ -41,7 +41,7 @@
 
         <ul id="accordion">
            <li>
-                <h3>Hvordan booker jeg tid?</h3>
+                <h3>Hvordan ansøger jeg om et nyt pas?</h3>
                 <div>
                     <p>Når du ønsker at få et pas, skal du henvende dig personligt i borgerservice uanset alder. Du kan frit vælge kommune.</p>
                     <p><strong>Bestil eventuelt tid til nyt pas</strong></p>
@@ -71,90 +71,121 @@
                 </div>
             </li>
             <li>
-                <h3>Hvordan ansøger jeg om et nyt pas?</h3>
+                <h3>Hvis du ikke kan nå at få dit pas</h3>
                 <div>
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Er du sent ude med bestillingen af dit pas, er der tre muligheder for levering af pas i hastetilfælde:</p>
+                        <ul>
+                                <li>Forlængelse af eksisterende pas</li>
+                                <li>Midlertidigt pas (nødpas)</li>
+                                <li>Hastelevering.</li>
+                        </ul>
+                        <p><strong>Forlængelse</strong></p>
+                        <p>Du kan få forlænget dit eksisterende pas én gang ved et stempel, hvis dit pas er udløbet inden for de sidste tre måneder eller vil udløbe inden for kort tid, før du skal rejse. Men kun i det tilfælde, at det ikke er muligt at nå at bestille et nyt pas - fx ved et akut opstået behov for at rejse. Forlængelsen vil så gælde, til du kommer hjem fra din rejse - dog maksimalt et år. Forlængelsen koster ikke noget.</p>
+                        <p>Du skal møde personligt op i borgerservice og have dit pas med. Muligheden for at få forlænget sit pas gælder også for børnepas. Her skal barnet møde personligt op. Hvis der er fælles forældremyndighed, skal begge forældre underskrive ansøgningen, men I behøver ikke begge to møde op. Du skal dog være opmærksom på, at ikke alle lande accepterer en forlængelsespåtegning i passet. Det er op til dig selv at undersøge, om dit rejsemål accepterer det. Det kan du gøre via dit rejsemåls ambassade i Danmark eller dit rejseselskab.</p>
+                        <ul>
+                                <li><a href="#">Andre landes pas- og visumregler (nyt vindue)</a></li>
+                        </ul>
+                        <p><strong>Midlertidigt pas (nødpas eller provisorisk pas)</strong></p>
+                        <p>Midlertidigt pas (nødpas eller provisorisk pas) kan udstedes, hvis:</p>
+                        <ul>
+                                <li>du har mistet dit pas</li>
+                                <li>du ikke har et pas</li>
+                                <li>du har glemt dit pas derhjemme, og ikke kan nå at hente det, før du skal rejse til et land, hvor pas er påkrævet (bemærk rejsen skal være umiddelbart forestående)</li>
+                                <li>dit pas er udløbet for mere end tre måneder siden.</li>
+                        </ul>
+                        <p>Du kan kun få et nødpas, hvis du ikke kan nå at få et egentligt pas. Prisen er den samme som for det almindelige pas. Du skal til et borgerservicecenter for at få et nødpas.</p>
+                        <p>Nødpasset har nogle begrænsninger, som du skal være opmærksom på. Det udstedes kun for den periode, du er på rejse - og maksimalt et år. Der er lande, som fx USA, der ikke godkender nødpasset til indrejse. Du kan finde en oversigt over andre landes pas- og visumregler på Udenrigsministeriets hjemmeside.</p>
+                        <ul>
+                                <li><a href="#">Andre landes pas- og visumregler (nyt vindue)</a></li>
+                        </ul>
+                        <p><strong>Hastelevering</strong></p>
+                        <p>Hvis din afrejse er så tæt på, at du ikke kan vente på den almindelige levering på 11-15 hverdage, er der mulighed for hastebehandling. Den tager fire hverdage.</p>
                 </div>
             </li>
             <li>
+                 <h3>Krav til fotoet i dit pas</h3>
+                 <div>
+                    <p>Der er specielle krav til det fotografi, der skal bruges i dit pas:</p>
+                    <ul>
+                            <li>fotografiet skal være uden skader</li>
+                            <li>det skal ligne dig og have størrelsen 35 x 45 mm, hvor hovedet måler mellem 30-36 mm i højden</li>
+                            <li>billedet skal tages lige forfra og vise dit ansigt og det øverste af skuldrene</li>
+                            <li>hovedbeklædning må kun bæres, hvis det er af religiøse grunde, og pandeparti, kindben og hage skal være synlige</li>
+                            <li>ansigtet skal være jævnt belyst</li>
+                            <li>begge øjne skal være helt synlige og blikket rettet mod kameraet</li>
+                            <li>munden skal være lukket</li>
+                            <li>briller må ikke være tonede og skal være uden reflekser</li>
+                            <li>baggrunden skal være lys og uden skygger eller motiver.</li>
+                    </ul>
+                    <p>Du kan få mere information om udstedelse af pas ved at henvende dig til kommunen og læse politiets regler for pasfoto.</p>
+                    <a href="#">Politiets regler for pasfoto med illustrationer (nyt vindue)</a>
+                 </div>
+             </li>
+             <li>
+                  <h3>Alle børn skal have eget pass</h3>
+                  <div>
+                     <p>Børn skal have deres eget pas, uanset hvor gamle de er, og skal også møde op personligt.</p>
+                     <p><strong>Ved fælles forældremyndighed skal begge forældre give samtykke</strong></p>
+                     <p>For at få udstedt eller fornyet et pas til dit barn under 18 år skal begge indehavere af forældremyndigheden udfylde felterne om samtykkeerklæring i ansøgningen, hvis der er fælles forældremyndighed. Når du ansøger om pas til dit barn, skal barnet være til stede.</p>
+                     <p>Der gælder de samme regler for pas til børn som for pas til voksne, hvad angår fx kvaliteten af det medbragte foto. Dog skal børn under 12 år indtil videre ikke afgive fingeraftryk.</p>
+                     <p><strong>Unavngivne børn</strong></p>
+                     <p>vis dit barn ikke er navngivet, og I skal ud at rejse, skal du være opmærksom på, at enkelte lande som fx England og USA ikke kan garantere, at dit barn kan rejse ind i landet uden problemer.  </p>
+                     <p>Er du i tvivl, kan du henvende dig til dit rejsemåls ambassade eller konsulat i Danmark.</p>
+                     <p><strong>Danske børn født i udlandet skal have dansk pas</strong></p>
+                     <p>Hvis du er dansker og er blevet forældre mens du opholder dig i udlandet, skal dit barn have et dansk pas på lige fod med alle andre, for at rejse – uanset hvor der rejses til. Søg om dansk pas på den danske repræsentation/ambassade i landet på samme måde som der søges om pas i Danmark hos borgerservice.</p>
+                     <ul>
+                             <li><a href="#">Danske ambassader i udlandet (nyt vindue)</a></li>
+                     </ul>
+                     <p><strong>Hvis dit barn rejser uden dig</strong></p>
+                     <p>Hvis dit barn under 18 år skal ud at rejse, og du som forælder eller værge ikke skal med, kan dit barn risikere at blive nægtet indrejse i nogle lande.</p>
+                     <p>Der findes endnu ikke en liste over, hvilke lande det drejer sig om. Derfor er det en god idé på forhånd at kontakte ambassaden eller konsulatet for det land, dit barn skal rejse til. De vil kunne oplyse om reglerne børn og unge under 18 år, der rejser ind i landet uden deres forældre eller værge.</p>
+                  </div>
+              </li>
+            <li>
                 <h3>Mistet mit pas</h3>
                 <div>
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
+                  <p>Hvis du mister dit pas i Danmark, skal du henvende dig til kommunen, der annullerer passet, så det ikke længere er gyldigt. Herefter kan du ansøge om et nyt pas, som du selv skal betale. Husk at medbringe legitimation.</p>
+                  <p>Du skal medbringe:</p>
+                  <ul>
+                          <li>original dåbs- eller navneattest</li>
+                          <li>sundhedskort (sygesikringsbevis), hvis dit personnummer ikke fremgår af attesten eller af din billedlegitimation. Men husk, det ikke er nok kun at medbringe dit sundhedskort</li>
+                          <li>et vellignende foto, som lever op til billedkravene.</li>
+                  </ul>
+                  <p>Hvis du mister dit pas i udlandet, skal du politianmelde det og bede om en politirapport eller en kvittering. Den skal du tage med til den danske ambassade i det pågældende land sammen med to pasbilleder, der lever op til billedreglerne. Ambassaden kan udstede et nyt midlertidigt pas (nødpas), der gælder, til du kommer tilbage til Danmark. Du skal betale et gebyr eller timebetaling for udstedelsen af nødpasset.</p>
+                  <ul>
+                          <li><a href="#">Politiets regler for pasfoto med illustrationer (nyt vindue)</a></li>
+                          <li><a href="#">Udenrigsministeriet om tyveri og røveri i udlandet (nyt vindue)</a></li>
+                  </ul>
                 </div>
             </li>
             <li>
                 <h3>Hvad koster et pas?</h3>
                 <div>
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
+                    <p>Et pas inklusiv gebyr for fingeraftryk koster (2018): </p>
+                    <ul>
+                            <li>0 til 11 år: 115 kr.</li>
+                            <li>12 til 17 år: 142 kr.</li>
+                            <li>18 til 64 år: 627 kr.</li>
+                            <li>65 år og derover: 377 kr.</li>
+                    </ul>
+                    <p>Husk, at pris for et nyt foto til passet kommer oveni.ª</p>
                 </div>
             </li>
             <li>
-                <h3>Regler om pas</h3>
+                <h3>Ekstra pas</h3>
                 <div>
-                    <p>
-                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-                    </p>
+                    <p>Du kan søge om et ekstra pas, hvis du rejser i forbindelse med dit arbejde, og:</p>
+                    <ul>
+                            <li>dit pas er indleveret til visering,</li>
+                    </ul>
+                    <p>eller</p>
+                    <ul>
+                            <li>dit pas har stempler eller viseringer, der kan gøre indrejse umulig i det land, du har planer om at rejse til.</li>
+                    </ul>
+                    <p>Du skal dokumentere, at det er nødvendigt med et ekstra pas. Medbring en erklæring fra din arbejdsgiver og søg om det ekstra pas i kommunen. Prisen er den samme, som for almindeligt pas.</p>
+                    <p>Normalt kan du ikke få ekstra pas til turist- og ferierejser.</p>
+                    <p><strong>Gyldighed for ekstra pas</strong></p>
+                    <p>Et ekstra pas må kun udstedes for rejsens varighed, dog maksimalt to år. Du skal aflevere dit ekstra pas tilbage til kommunen efter brug.</p>
                 </div>
             </li>
     </ul>
@@ -170,8 +201,16 @@
         </section>
         <section class="desktop">
             <h4>Bestil dit pas</h4>
-            <p>Cras mattis consectetur purus sit amet fermentum lorem.</p>
+            <p>Det er nemt og hurtigt. Du skal booke tid hos Borgerservice i Køge og hos Borgerservice light på Borup bibliotek.</p>
             <a class="btn green" href="#">Start her</a>
+        </section>
+        <section class="relatedlinks">
+            <h4>Relaterede Links</h4>
+            <ul>
+                    <li><a href="#">Bestil blå Sundhedskort</a></li>
+                    <li ><a href="#">Regler om pas</a></li>
+                    <li><a href="#">borgerservice to go</a></li>
+            </ul>
         </section>
     </aside>
 </main>

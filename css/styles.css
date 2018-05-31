@@ -172,9 +172,6 @@ p {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
   z-index: 99999;
   border-bottom: 1px solid #dedede;
 }
@@ -195,14 +192,39 @@ nav.submenu ul {
 }
 nav.submenu ul li {
   display: inline-block;
+  padding: 13px 30px;
+  position: relative;
+}
+nav.submenu ul li.active a {
+  text-decoration: none;
+}
+nav.submenu ul li.active:after {
+  content: '';
+  width: 80%;
+  height: 7px;
+  background: white;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 1;
 }
 nav.submenu ul li a {
   font-size: 16px;
   font-weight: 900;
-  padding: 13px 30px;
   color: #ffffff;
   text-transform: uppercase;
   display: block;
+  position: relative;
+}
+nav.submenu ul li a:after {
+  opacity: 0;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+nav.submenu ul li a:hover {
+  text-decoration: underline;
 }
 nav.mainmenu {
   background: #ffffff;
@@ -303,7 +325,7 @@ nav.mainmenu .btn {
   color: white;
 }
 .mega-menu .menuhide.open {
-  max-height: 1000px;
+  max-height: 3000px;
 }
 .mega-menu .menuhide.open:after {
   display: block;
@@ -313,7 +335,7 @@ nav.mainmenu .btn {
 }
 @media screen and (min-width: 1099px) {
   .mega-menu .menuhide .menu-wrapper {
-    padding: 60px 0;
+    padding: 60px 0 90px;
   }
 }
 .mega-menu .menuhide:after {
@@ -415,6 +437,7 @@ footer div ul .first {
 footer .btn {
   margin-top: 50px;
   text-align: center;
+  width: 170px;
 }
 
 @media screen and (min-width: 599px) {
@@ -581,7 +604,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 }
 .indexgridwrapper .indexgrid .item0 {
   font-size: 25px;
-  padding: 45px 0 45px 0;
+  padding: 80px 0 45px 0;
 }
 .indexgridwrapper .indexgrid .item1 ul {
   padding-left: 20px;
@@ -593,6 +616,9 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
 }
 .indexgridwrapper .indexgrid .item5, .indexgridwrapper .indexgrid .item6, .indexgridwrapper .indexgrid .item7, .indexgridwrapper .indexgrid .item8, .indexgridwrapper .indexgrid .item9 {
   opacity: 0.5;
+}
+.indexgridwrapper .indexgrid .item7, .indexgridwrapper .indexgrid .item8, .indexgridwrapper .indexgrid .item9 {
+  padding-bottom: 80px;
 }
 @media screen and (min-width: 599px) {
   .indexgridwrapper .indexgrid {
@@ -759,14 +785,18 @@ aside section .btn {
   margin-top: 15px;
 }
 
-.gethelp {
-  display: inline-block;
-  margin-left: 15px;
-  color: #293952;
-  position: relative;
-  cursor: pointer;
+section.relatedlinks {
+  background-color: white;
 }
-.gethelp:after {
+section.relatedlinks ul {
+  list-style-type: none;
+}
+section.relatedlinks ul li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+section.relatedlinks ul li a:after {
   content: '';
   width: 100%;
   height: 1px;
@@ -792,14 +822,20 @@ aside section .btn {
   height: auto;
 }
 .newsgrid > div .newswrapper {
-  margin: 17px 17px 100px;
+  margin: 10px 25px 0px;
+  height: 275px;
+}
+@media screen and (min-width: 767px) {
+  .newsgrid > div .newswrapper {
+    height: 300px;
+  }
 }
 .newsgrid > div .newswrapper h3 {
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .newsgrid > div .btn {
-  margin: 0px 17px 20px;
+  margin: 0px 25px 40px;
   position: absolute;
   bottom: 0px;
 }
@@ -811,7 +847,6 @@ aside section .btn {
 .latestnews {
   text-align: center;
   padding: 60px;
-  margin-top: 50px;
 }
 
 @media screen and (min-width: 767px) {
@@ -829,6 +864,6 @@ aside section .btn {
 @media screen and (min-width: 1099px) {
   .newsgrid {
     width: 1099px;
-    margin: 0px auto 30px;
+    margin: 0px auto 80px;
   }
 }
