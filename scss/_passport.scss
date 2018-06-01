@@ -34,7 +34,7 @@ section.guide {
             font-size: 50px;
             font-weight: 900;
             color: $blue;
-        }        
+        }
     }
 }
 
@@ -49,12 +49,14 @@ article.text {
     width: calc(100% - 20px);
     box-shadow: 2px 1px 4px 0 rgba(0,0,0,0.18);
 
+
     @media screen and (min-width: $md) {
         margin: 0;
         margin-top: -60px;
         padding: 50px;
         width: 70%;
         float: left;
+        margin-bottom: 60px;
     }
 
     .btn {
@@ -69,7 +71,7 @@ article.text {
         font-size: 30px;
         margin-bottom: 20px;
         @media screen and (min-width: $sm) {
-            font-size: 40px;   
+            font-size: 40px;
         }
     }
 

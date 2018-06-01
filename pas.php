@@ -39,6 +39,8 @@
 
         <h2>Yderelige informationer</h2>
 
+        <!-- information omkring pas er copy pasted fra koege.dk -->s
+
         <ul id="accordion">
            <li>
                 <h3>Hvordan ansøger jeg om et nyt pas?</h3>

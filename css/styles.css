@@ -71,8 +71,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 66px;
+  font-size: 50px;
   color: #293952;
+}
+@media screen and (min-width: 599px) {
+  h1 {
+    font-size: 66px;
+  }
 }
 
 h2 {
@@ -179,12 +184,6 @@ header {
 nav.submenu {
   background: #293952;
   color: #ffffff;
-  display: none;
-}
-@media screen and (min-width: 767px) {
-  nav.submenu {
-    display: block;
-  }
 }
 nav.submenu ul {
   list-style: none;
@@ -240,7 +239,7 @@ nav.mainmenu .logo {
   width: 150px;
   display: block;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) {
   nav.mainmenu .logo {
     width: 200px;
     float: left;
@@ -255,7 +254,7 @@ nav.mainmenu .search {
   margin: 30px 0;
   position: relative;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) {
   nav.mainmenu .search {
     float: left;
     margin: 0;
@@ -269,7 +268,7 @@ nav.mainmenu .search {
 }
 nav.mainmenu .search:after {
   content: '';
-  background-image: url("data:image/svg+xml, %3Csvg width='25px' height='14px' viewBox='0 0 25 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Selvbetjening-popup' transform='translate(-1136.000000, -505.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E %3Cg id='next' transform='translate(270.000000, 221.000000)'%3E %3Cg id='Group-3'%3E %3Cpath d='M884.7995,290.521559 L873.190081,279.199927 C872.916737,278.933358 872.478353,278.933358 872.205009,279.199927 C871.931664,279.466496 871.931664,279.894012 872.205009,280.16058 L883.319312,290.999371 L872.205009,301.838162 C871.931664,302.104731 871.931664,302.532247 872.205009,302.798816 C872.339102,302.929586 872.519613,303 872.694966,303 C872.87032,303 873.05083,302.934615 873.184924,302.798816 L884.794342,291.477183 C885.067687,291.215644 885.067687,290.783098 884.7995,290.521559 Z' id='Shape' transform='translate(878.500000, 291.000000) rotate(90.000000) translate(-878.500000, -291.000000) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+  background-image: url("data:image/svg+xml, %3Csvg width='23px' height='23px' viewBox='0 0 23 23' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Selvbetjening-popup' transform='translate(-505.000000, -85.000000)' fill='%23000000' fill-rule='nonzero'%3E %3Cg id='Header' transform='translate(-5.000000, 0.000000)'%3E %3Cg id='magnifying-glass' transform='translate(510.000000, 85.000000)'%3E %3Cpath d='M22.8010645,21.827051 L17.210468,16.237694 C18.7101353,14.513969 19.6180971,12.2649667 19.6180971,9.80687361 C19.6180971,4.39600887 15.2160124,0 9.80904857,0 C4.39698381,0 0,4.40110865 0,9.80687361 C0,15.2126386 4.40208472,19.6137472 9.80904857,19.6137472 C12.2676868,19.6137472 14.5171878,18.7059867 16.2412952,17.2066519 L21.8318918,22.7960089 C21.9645154,22.9286031 22.1430472,23 22.3164782,23 C22.4899091,23 22.6684409,22.9337029 22.8010645,22.7960089 C23.0663118,22.5308204 23.0663118,22.0922395 22.8010645,21.827051 Z M1.3721446,9.80687361 C1.3721446,5.15587583 5.15701929,1.37694013 9.80394766,1.37694013 C14.4559769,1.37694013 18.2357507,5.16097561 18.2357507,9.80687361 C18.2357507,14.4527716 14.4559769,18.2419069 9.80394766,18.2419069 C5.15701929,18.2419069 1.3721446,14.4578714 1.3721446,9.80687361 Z' id='Shape'%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
   background-size: 100%;
   width: 20px;
   height: 20px;
@@ -306,7 +305,7 @@ nav.mainmenu .btn {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 599px) {
   nav.mainmenu .btn {
     float: right;
     margin-top: 6px;
@@ -368,6 +367,11 @@ nav.mainmenu .btn {
   margin-right: 15px;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 599px) {
+  .mega-menu .menuhide .featured .btn {
+    font-size: 14px;
+  }
+}
 .mega-menu .menuhide #megamenu {
   list-style: none;
   max-width: 900px;
@@ -392,9 +396,9 @@ nav.mainmenu .btn {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url("data:image/svg+xml, %3Csvg width='20px' height='11px' viewBox='0 0 20 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Subpage' transform='translate(-765.000000, -1080.000000)' fill='%23293952'%3E %3Cg id='Group-2' transform='translate(162.000000, 1068.000000)'%3E %3Cpath d='M617.845756,17.1839803 L608.915466,8.15932539 C608.7051,7.94689154 608.368029,7.94689154 608.157663,8.15932539 C607.947446,8.37190958 607.947446,8.7125354 608.157663,8.92511959 L616.707091,17.5646975 L608.157663,26.2045259 C607.947446,26.4169096 607.947446,26.7577359 608.157663,26.9701196 C608.260912,27.0744573 608.399619,27.1304348 608.534606,27.1304348 C608.669444,27.1304348 608.808349,27.0783662 608.9114,26.9701196 L617.841887,17.9456652 C618.052055,17.7371903 618.052055,17.3924552 617.845756,17.1839803 Z' id='Fill-1' transform='translate(613.000000, 17.565217) rotate(90.000000) translate(-613.000000, -17.565217) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
-  width: 20px;
-  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg width='25px' height='14px' viewBox='0 0 25 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Selvbetjening-popup' transform='translate(-1136.000000, -505.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E %3Cg id='next' transform='translate(270.000000, 221.000000)'%3E %3Cg id='Group-3'%3E %3Cpath d='M884.7995,290.521559 L873.190081,279.199927 C872.916737,278.933358 872.478353,278.933358 872.205009,279.199927 C871.931664,279.466496 871.931664,279.894012 872.205009,280.16058 L883.319312,290.999371 L872.205009,301.838162 C871.931664,302.104731 871.931664,302.532247 872.205009,302.798816 C872.339102,302.929586 872.519613,303 872.694966,303 C872.87032,303 873.05083,302.934615 873.184924,302.798816 L884.794342,291.477183 C885.067687,291.215644 885.067687,290.783098 884.7995,290.521559 Z' id='Shape' transform='translate(878.500000, 291.000000) rotate(90.000000) translate(-878.500000, -291.000000) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+  width: 24px;
+  height: 13px;
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
 }
@@ -409,18 +413,64 @@ nav.mainmenu .btn {
   margin-bottom: 0;
 }
 .mega-menu .menuhide #megamenu li .ui-accordion-content-active {
-  margin-top: 5px;
+  padding-top: 5px;
+}
+.mega-menu .menuhide #megamenu li ul {
+  list-style: none;
+}
+.mega-menu .menuhide #megamenu li ul li {
+  border: 0;
+  padding: 10px;
+}
+.mega-menu .menuhide #megamenu li ul li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  bottom: -2px;
+  left: 0;
+}
+.mega-menu .menuhide #megamenu li ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.mega-menu .menuhide #megamenu li ul li a:after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  bottom: -2px;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+.mega-menu .menuhide #megamenu li ul li a:hover:after {
+  opacity: 1;
 }
 
 footer {
   background: #293952;
   color: #ffffff;
-  padding: 60px;
-  margin-top: 60px;
+  padding: 40px;
+}
+@media screen and (min-width: 599px) {
+  footer {
+    padding: 60px;
+  }
 }
 footer div ul {
   list-style-type: none;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 599px) {
+  footer div ul {
+    margin-bottom: 15px;
+  }
 }
 footer div ul li {
   margin-bottom: 5px;
@@ -514,11 +564,11 @@ article.gallery ul li figure img {
 article.gallery .bx-controls {
   position: relative;
   z-index: 10;
-  margin-top: 30px;
+  bottom: 20px;
 }
 @media screen and (min-width: 599px) {
   article.gallery .bx-controls {
-    margin-top: 20px;
+    bottom: 40px;
   }
 }
 article.gallery .bx-controls .bx-pager {
@@ -555,7 +605,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   background-color: white;
 }
 .indexgridwrapper .indexgrid {
-  margin: 100px auto 0px;
+  margin: 0 auto 0px;
 }
 .indexgridwrapper .indexgrid div {
   text-align: center;
@@ -585,7 +635,7 @@ article.gallery .bx-controls .bx-pager .bx-pager-item a.active:after {
   display: inline-block;
   margin: 0px 2px 2px;
 }
-.indexgridwrapper .indexgrid div ul li a::after {
+.indexgridwrapper .indexgrid div ul li a:after {
   content: ' ';
   position: absolute;
   width: 100%;
@@ -670,6 +720,31 @@ main:after {
   clear: both;
 }
 
+section.guide {
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section.guide .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+section.guide .step .number, section.guide .step .text {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 5px 20px 20px 0;
+}
+section.guide .step .number {
+  font-size: 50px;
+  font-weight: 900;
+  color: #293952;
+}
+
 article.text {
   padding: 20px;
   margin: 0 10px;
@@ -687,13 +762,23 @@ article.text {
     padding: 50px;
     width: 70%;
     float: left;
+    margin-bottom: 60px;
   }
 }
 article.text .btn {
   margin: 30px 0 40px;
 }
+article.text h1 {
+  margin-bottom: 20px;
+}
 article.text h2 {
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 599px) {
+  article.text h2 {
+    font-size: 40px;
+  }
 }
 article.text #accordion {
   list-style: none;
@@ -866,4 +951,79 @@ section.relatedlinks ul li a:after {
     width: 1099px;
     margin: 0px auto 80px;
   }
+}
+figure.borgerservice {
+  background: url("../img/borgerserviceheader.jpg");
+}
+figure.borgerservice.topimage {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+@media screen and (min-width: 767px) {
+  figure.borgerservice.topimage {
+    height: 350px;
+  }
+}
+
+article.borgergridwrapper {
+  width: 100%;
+  background-color: white;
+}
+article.borgergridwrapper div.borgergridcontainer {
+  padding: 17px;
+}
+@media screen and (min-width: 767px) {
+  article.borgergridwrapper div.borgergridcontainer {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    width: 85%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  article.borgergridwrapper div.borgergridcontainer .itemX {
+    position: relative;
+    height: 240px;
+  }
+  article.borgergridwrapper div.borgergridcontainer .itemX .btn {
+    position: absolute;
+    bottom: 0;
+  }
+  article.borgergridwrapper div.borgergridcontainer .btn {
+    position: absolute;
+    bottom: 0;
+  }
+  article.borgergridwrapper div.borgergridcontainer .item0 {
+    grid-column: 1 / 3;
+  }
+}
+@media screen and (min-width: 1099px) {
+  article.borgergridwrapper div.borgergridcontainer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 30px;
+    margin: auto;
+    width: 1099px;
+  }
+  article.borgergridwrapper div.borgergridcontainer .item0 {
+    grid-column: 1 / 4;
+  }
+}
+article.borgergridwrapper div.borgergridcontainer div {
+  margin: 15px 0px;
+}
+article.borgergridwrapper div.borgergridcontainer div h2 {
+  margin: 15px 0px 25px;
+}
+article.borgergridwrapper div.borgergridcontainer div h3 {
+  margin-bottom: 10px;
+}
+article.borgergridwrapper div.borgergridcontainer div a {
+  text-decoration: none;
+  color: black;
+}
+article.borgergridwrapper div.borgergridcontainer div .btn {
+  margin: 10px 0px 20px;
 }

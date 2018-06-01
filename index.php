@@ -35,8 +35,8 @@
         <div class="indexgrid">
                 <div class="item0"><h2>Hvad kan jeg hjælpe med</h2></div>
                 <div class="item1">
-                        <a href="#"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
-                        <a href="#"><h3>Borgerservice</h3></a>
+                        <a href="borgerservice.php"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
+                        <a href="borgerservice.php"><h3>Borgerservice</h3></a>
                         <ul>
                                 <li><a href="<?php echo $pasurl; ?>">Pas,</a></li>
                                 <li><a href="#">NemID,</a></li>
