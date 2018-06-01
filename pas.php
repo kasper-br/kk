@@ -39,7 +39,7 @@
 
         <h2>Yderelige informationer</h2>
 
-        <!-- information omkring pas er copy pasted fra koege.dk -->s
+        <!-- information omkring pas er copy pasted fra koege.dk -->
 
         <ul id="accordion">
            <li>
