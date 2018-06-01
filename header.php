@@ -1,6 +1,6 @@
 <?php
-    $pasurl = 'pas.php';
-//    $pasurl = '/borgerservice/pas';
+    //$pasurl = 'pas.php';
+    $pasurl = '/kk/borgerservice/pas';
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +10,30 @@
     <meta name="Robots" content="Noindex,nofollow">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/styles.css">
 
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
-    <script src="js/bxslider.js"></script>
+    <script src="js/bxslider.js"></script> -->
 
-    <!-- <link rel="stylesheet" href="http://localhost:8888/localhost/studie/Eksamen/kk/css/styles.css">
-    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery.js"></script>
-    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/jquery-ui.js"></script>
-    <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/bxslider.js"></script> -->
+    <link rel="stylesheet" href="/kk/css/styles.css">
+    <script src="/kk/js/jquery.js"></script>
+    <script src="/kk/js/jquery-ui.js"></script>
+    <script src="/kk/js/bxslider.js"></script>
+    
 </head>
 <body>
 
 <header>
     <nav class="submenu">
         <ul>
-            <li class="active"><a href="index.php">Borger</a></li>
+            <li class="active"><a href="/kk">Borger</a></li>
             <li><a href="#">Erhverv</a></li>
             <li><a href="#">Kommune</a></li>
         </ul>
     </nav>
     <nav class="mainmenu">
-        <a href="index.php" class="logo">
+        <a href="/kk" class="logo">
             <svg width="243px" height="61px" viewBox="0 0 243 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <polygon id="path-1" points="0.7826 0.6591 10.5997667 0.6591 10.5997667 12.1875 0.7826 12.1875"></polygon>

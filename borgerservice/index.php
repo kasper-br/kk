@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pas | Køge Kommune</title>
+    <title>Borgerservice - Køge Kommune</title>
     <meta name='description' content="Koege passport subpage. Made as an school assignment zealand institute of business and technology">
 
 
-<?php include 'header.php';?>
+<?php include '../header.php';?>
 
 <figure class="topimage borgerservice"></figure>
 
@@ -13,12 +13,20 @@
         <article class="borgergridwrapper">
                 <div class="borgergridcontainer">
                         <div class="item0">
+                                <ul class="breadcrumb">
+                                        <li>
+                                                <a href="/kk">Forside</a>
+                                        </li>
+                                        <li>
+                                                <span>Borgerservice</span>
+                                        </li>
+                                </ul>
                                 <h2>Borgerservice</h2>
                         </div>
 
                         <div class="itemX">
                                 <a href="<?php echo $pasurl; ?>"> <h3>Pas</h3> </a>
-                                <p>Bestil pas eller læs mere om reglerne for pas</p>
+                                <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas.</p>
                                 <a href="<?php echo $pasurl; ?>" class="btn blue outline">læs mere om pas</a>
                         </div>
 
@@ -34,7 +42,7 @@
                         </div>
                         <div class="itemX">
                                 <a href="#"><h3>Folkeregister</h3></a>
-                                <p>Senest fem dage efter, du er flyttet til Københavns Kommune eller til en anden adresse indenfor kommunen, skal du gå på nettet og melde flytning.</p>
+                                <p>5 dage efter, du er flyttet til Køge Kommune eller til en anden adresse indenfor kommunen, skal du gå på nettet og melde flytning.</p>
                                 <a href="#" class="btn blue outline">læs mere om folkeregister</a>
                         </div>
                         <div class="itemX">
@@ -54,7 +62,7 @@
                         </div>
                         <div class="itemX">
                                 <a href="#"><h3>Økonomi</h3></a>
-                                <p>Her er også informationer om en række forhold, der vedrører din økonomi såsom barselsdagpenge, SKAT, dine feriepenge, eller hvis du har gæld til kommunen.</p>
+                                <p>Find informationer om din økonomi såsom barselsdagpenge, SKAT, dine feriepenge, eller hvis du har gæld til kommunen.</p>
                                 <a href="#" class="btn blue outline">læs mere om økonomi</a>
                         </div>
                         <div class="itemX">
@@ -67,4 +75,4 @@
 
 
 
-<?php include 'footer.php';?>
+<?php include '../footer.php';?>

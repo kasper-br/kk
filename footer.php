@@ -35,14 +35,10 @@
                             <li><a href="#">Log på kjukken (for ansatte)</a></li>
                         </ul>
                 </div>
-
-
-
-            <a class="btn outline white" href="#">Akut Hjælp</a>
     </div>
 </footer>
 
-<script src="js/scripts.js"></script>
+<script src="/kk/js/scripts.js"></script>
 <!-- <script src="http://localhost:8888/localhost/studie/Eksamen/kk/js/scripts.js"></script> -->
 
 </body>

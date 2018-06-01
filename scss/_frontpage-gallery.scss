@@ -1,8 +1,7 @@
 article.gallery {
     position: relative;
 
-    &:before {
-        content: '';
+    .cirkel {
         width: 50px;
         height: 50px;
         border-radius: 100px;
@@ -12,17 +11,25 @@ article.gallery {
         left: 50%;
         transform: translateX(-50%);
         box-shadow: 2px 1px 4px 0 rgba(0, 0, 0, 0.18);
-    }
-    &:after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: -7px;
-        transform: translateX(-50%);
-        background-image: url("data:image/svg+xml, %3Csvg width='20px' height='11px' viewBox='0 0 20 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Subpage' transform='translate(-765.000000, -1080.000000)' fill='%23293952'%3E %3Cg id='Group-2' transform='translate(162.000000, 1068.000000)'%3E %3Cpath d='M617.845756,17.1839803 L608.915466,8.15932539 C608.7051,7.94689154 608.368029,7.94689154 608.157663,8.15932539 C607.947446,8.37190958 607.947446,8.7125354 608.157663,8.92511959 L616.707091,17.5646975 L608.157663,26.2045259 C607.947446,26.4169096 607.947446,26.7577359 608.157663,26.9701196 C608.260912,27.0744573 608.399619,27.1304348 608.534606,27.1304348 C608.669444,27.1304348 608.808349,27.0783662 608.9114,26.9701196 L617.841887,17.9456652 C618.052055,17.7371903 618.052055,17.3924552 617.845756,17.1839803 Z' id='Fill-1' transform='translate(613.000000, 17.565217) rotate(90.000000) translate(-613.000000, -17.565217) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
-        width: 20px;
-        height: 11px;
         transition: 300ms ease;
+
+        &:hover {
+            background: $blue;
+            &:after {
+                background-image: url("data:image/svg+xml,%3Csvg width='25px' height='14px' viewBox='0 0 25 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Selvbetjening-popup' transform='translate(-1136.000000, -505.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E %3Cg id='next' transform='translate(270.000000, 221.000000)'%3E %3Cg id='Group-3'%3E %3Cpath d='M884.7995,290.521559 L873.190081,279.199927 C872.916737,278.933358 872.478353,278.933358 872.205009,279.199927 C871.931664,279.466496 871.931664,279.894012 872.205009,280.16058 L883.319312,290.999371 L872.205009,301.838162 C871.931664,302.104731 871.931664,302.532247 872.205009,302.798816 C872.339102,302.929586 872.519613,303 872.694966,303 C872.87032,303 873.05083,302.934615 873.184924,302.798816 L884.794342,291.477183 C885.067687,291.215644 885.067687,290.783098 884.7995,290.521559 Z' id='Shape' transform='translate(878.500000, 291.000000) rotate(90.000000) translate(-878.500000, -291.000000) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+            }
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url("data:image/svg+xml, %3Csvg width='20px' height='11px' viewBox='0 0 20 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch --%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E%3C/defs%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Subpage' transform='translate(-765.000000, -1080.000000)' fill='%23293952'%3E %3Cg id='Group-2' transform='translate(162.000000, 1068.000000)'%3E %3Cpath d='M617.845756,17.1839803 L608.915466,8.15932539 C608.7051,7.94689154 608.368029,7.94689154 608.157663,8.15932539 C607.947446,8.37190958 607.947446,8.7125354 608.157663,8.92511959 L616.707091,17.5646975 L608.157663,26.2045259 C607.947446,26.4169096 607.947446,26.7577359 608.157663,26.9701196 C608.260912,27.0744573 608.399619,27.1304348 608.534606,27.1304348 C608.669444,27.1304348 608.808349,27.0783662 608.9114,26.9701196 L617.841887,17.9456652 C618.052055,17.7371903 618.052055,17.3924552 617.845756,17.1839803 Z' id='Fill-1' transform='translate(613.000000, 17.565217) rotate(90.000000) translate(-613.000000, -17.565217) '%3E%3C/path%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+            width: 22px;
+            height: 12px;
+            background-size: 100%;
+        }
     }
 
     ul {

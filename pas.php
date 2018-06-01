@@ -5,7 +5,7 @@
     <meta name='description' content="Koege passport subpage. Made as an school assignment zealand institute of business and technology">
 
 
-<?php include 'header.php';?>
+<?php include '/kk/header.php';?>
 
 <figure class="topimage passport"></figure>
 
@@ -217,4 +217,4 @@
     </aside>
 </main>
 
-<?php include 'footer.php';?>
+<?php include '/kk/footer.php';?>

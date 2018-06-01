@@ -16,11 +16,11 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/borgerservice.php": {
+	"\/borgerservice\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/borgerservice.php",
+		"oAP": "\/borgerservice\/index.php",
 		"oF": 0
 		},
 	"\/borgerservice\/pas\/index.php": {
@@ -29,16 +29,6 @@
 		"oA": 0,
 		"oAP": "\/borgerservice\/pas\/index.php",
 		"oF": 0
-		},
-	"\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -271,6 +261,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_breadcrumb.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_breadcrumb.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_btn.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -420,16 +423,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/scss\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/scss\/styles.scss": {
 		"aP": 0,
