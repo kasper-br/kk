@@ -11,6 +11,7 @@ figure.borgerservice {
     }
 }
 
+
 article.borgergridwrapper{
         width: 100%;
         background-color: white;
@@ -20,9 +21,27 @@ article.borgergridwrapper{
 
                 @media screen and (min-width: $md) {
                         display: grid;
+                        margin: auto;
                         grid-template-columns: 50% 50%;
-                        width: 100%;
-                        grid-column-gap: 20px;
+                        width: 85%;
+                        grid-column-gap: 30px;
+                        grid-row-gap: 30px;
+
+
+                        .itemX{
+                                position: relative;
+                                height: 240px;
+
+                                .btn {
+                                        position: absolute;
+                                        bottom: 0;
+                                }
+                        }
+
+                        .btn {
+                                position: absolute;
+                                bottom: 0;
+                        }
 
                         .item0 {
                                 grid-column: 1 / 3;
@@ -32,6 +51,8 @@ article.borgergridwrapper{
                 @media screen and (min-width: $lg) {
                         display: grid;
                         grid-template-columns: 30% 30% 30%;
+                        grid-column-gap: 30px;
+                        margin: auto;
                         width: $lg;
 
                         .item0 {
@@ -48,6 +69,7 @@ article.borgergridwrapper{
                         }
 
                         h3 {
+                                margin-bottom: 10px;
 
                         }
 
