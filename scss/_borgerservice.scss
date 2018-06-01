@@ -12,14 +12,56 @@ figure.borgerservice {
 }
 
 article.borgergridwrapper{
-
         width: 100%;
         background-color: white;
 
         div.borgergridcontainer {
-                display: grid;
-                grid-template-columns: auto auto auto;
-                width: $lg;
+                padding: 17px;
+
+                @media screen and (min-width: $md) {
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        width: 100%;
+                        grid-column-gap: 20px;
+
+                        .item0 {
+                                grid-column: 1 / 3;
+                        }
+                }
+
+                @media screen and (min-width: $lg) {
+                        display: grid;
+                        grid-template-columns: 30% 30% 30%;
+                        width: $lg;
+
+                        .item0 {
+                                grid-column: 1 / 4;
+                        }
+                }
+
+                div {
+
+                        margin: 15px 0px;
+
+                        h2 {
+                                margin: 15px 0px 25px; ;
+                        }
+
+                        h3 {
+
+                        }
+
+                        a {
+                                text-decoration: none;
+                                color: black;
+                        }
+
+                        .btn {
+                                margin: 10px 0px 20px;
+                        }
+                }
+
+
         }
 
 }
