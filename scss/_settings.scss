@@ -7,11 +7,10 @@ $lg: 1099px;
 
 //Color
 $blue: #293952;
+$green: #a3b645;
 $white: #ffffff;
 $lightgrey: #f6f6f6;
-$green: #a3b645;
-$orange: #ea984e;
-$red: #bb3445;
+
 
 //Body
 body { background: $lightgrey; }
@@ -35,24 +34,24 @@ section {
 }
 
 //TOOLS
-body {
-    &:after {
-        background: $red;
-        color: white;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        content: 'MF';
+// body {
+//     &:after {
+//         background: $red;
+//         color: white;
+//         padding: 10px;
+//         position: fixed;
+//         bottom: 0;
+//         right: 0;
+//         content: 'MF';
 
-        @media screen and (min-width: $sm) {
-            content: 'SM';
-        }
-        @media screen and (min-width: $md) {
-            content: 'MD';
-        }
-        @media screen and (min-width: $lg) {
-            content: 'LG';
-        }
-    }
-}
+//         @media screen and (min-width: $sm) {
+//             content: 'SM';
+//         }
+//         @media screen and (min-width: $md) {
+//             content: 'MD';
+//         }
+//         @media screen and (min-width: $lg) {
+//             content: 'LG';
+//         }
+//     }
+// }

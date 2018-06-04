@@ -30,6 +30,16 @@
 		"oAP": "\/borgerservice\/pas\/index.php",
 		"oF": 0
 		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -74,7 +84,7 @@
 		"oAP": "\/img\/borgerserviceheader.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/flytning.png": {

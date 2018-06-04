@@ -34,7 +34,7 @@
 
 <article id="kategorier" class="indexgridwrapper">
         <div class="indexgrid">
-                <div class="item0"><h2>Hvad kan jeg hjælpe med</h2></div>
+                <div class="item0"><h2>Hvad søger du?</h2></div>
                 <div class="item1">
                         <a href="borgerservice"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
                         <a href="borgerservice"><h3>Borgerservice</h3></a>
@@ -45,7 +45,7 @@
                                 <li><a href="#">Kørekort,</a></li>
                                 <li><a href="#">Sundhedskort,</a></li>
                         </ul>
-                        <div class="sealle"><a href="#">SE ALLE</a></div>
+                        <div class="sealle"><a href="/kk/borgerservice">SE ALLE</a></div>
                 </div>
                 <div class="item2">
                         <a href="#"><img src="img/sundhed-sygedom.png" alt="icon for sundhed-sygedom"></a>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bestille Pas - Køge Kommune</title>
+    <title>Bestilling af pas - Køge Kommune</title>
     <meta name='description' content="Koege passport subpage. Made as an school assignment zealand institute of business and technology">
 
 
@@ -21,14 +21,14 @@
             </li>
 
             <li>
-                    <span>Pas</span>
+                    <span>Bestilling af pas</span>
             </li>
         </ul>
 
         <h1>Bestilling af pas</h1>
 
         <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
-        <a class="btn green" href="#">Start her</a>
+        <a class="btn green"  href="https://selvbetjening.id-port.dk/secure/259/Menu/Pas" target="_blank">Start her</a>
 
         <section class="guide">
             <h2>Hvordan bestiller jeg pas?</h2>
@@ -219,12 +219,12 @@
         <section class="desktop">
             <h4>Bestil dit pas</h4>
             <p>Det er nemt og hurtigt. Du skal booke tid hos Borgerservice i Køge og hos Borgerservice light på Borup bibliotek.</p>
-            <a class="btn green" href="#">Start her</a>
+            <a class="btn green" href="https://selvbetjening.id-port.dk/secure/259/Menu/Pas" target="_blank">Start her</a>
         </section>
         <section class="relatedlinks">
             <h4>Relaterede Links</h4>
             <ul>
-                    <li><a href="#">Bestil blå Sundhedskort</a></li>
+                    <li><a href="#">Bestil det blå sundhedskort</a></li>
                     <li ><a href="#">Regler om pas</a></li>
                     <li><a href="#">Borgerservice To-Go</a></li>
             </ul>
