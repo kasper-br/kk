@@ -4,6 +4,12 @@
     <title>Bestilling af pas - Køge Kommune</title>
     <meta name='description' content='Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Det gør du ved at bruge vores selvbetjeningsløsning ved at klikke på "Start her"'>
 
+    <meta property="og:url"           content="http://studie.kaspr.dk/kk" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Bestilling af pas - Køge Kommune" />
+    <meta property="og:description"   content='Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Det gør du ved at bruge vores selvbetjeningsløsning ved at klikke på "Start her"' />
+    <meta property="og:image"         content="http://studie.kaspr.dk/kk/img/socialmedia.jpg" />
+
 <?php include '../../header.php';?>
 
 <figure class="topimage passport"></figure>

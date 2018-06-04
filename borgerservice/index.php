@@ -4,6 +4,12 @@
     <title>Borgerservice - Køge Kommune</title>
     <meta name='description' content="Her finder du et overblik over alle de services vi udbyder i BorgerService i Køge kommune">
 
+    <meta property="og:url"           content="http://studie.kaspr.dk/kk" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Bestilling af pas - Køge Kommune" />
+    <meta property="og:description"   content="Her finder du et overblik over alle de services vi udbyder i BorgerService i Køge kommune" />
+    <meta property="og:image"         content="http://studie.kaspr.dk/kk/img/socialmedia.jpg" />
+
 
 <?php include '../header.php';?>
 

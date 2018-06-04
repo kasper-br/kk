@@ -3,6 +3,11 @@
 <head>
     <title>Velkommen til Køge Kommune</title>
     <meta name='description' content="Køge kommune er et sted hvor du kan leve livet - hele livet. Her er der gode muligheder for at bo, leve og arbejde uanset alder.">
+    <meta property="og:url"           content="http://studie.kaspr.dk/kk" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Velkommen til Køge Kommune" />
+    <meta property="og:description"   content="Køge kommune er et sted hvor du kan leve livet - hele livet. Her er der gode muligheder for at bo, leve og arbejde uanset alder." />
+    <meta property="og:image"         content="http://studie.kaspr.dk/kk/img/socialmedia.jpg" />
 
 <?php include 'header.php';?>
 
