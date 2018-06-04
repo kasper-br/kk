@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="Gruppe 1 Zibat 2.semester exam 2018">
+    <meta name="author" content="Gruppe 1, Zibat, 2.semester exam 2018">
     <meta name="Robots" content="Noindex,nofollow">
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700,900" rel="stylesheet">

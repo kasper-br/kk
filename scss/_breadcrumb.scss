@@ -42,6 +42,12 @@ ul.breadcrumb {
                 bottom: -1px;
                 left: 0
             }
+
+            &:hover {
+                &:after {
+                    bottom: -2px;
+                }
+            }
         }
 
         span {

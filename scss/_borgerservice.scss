@@ -61,17 +61,19 @@ article.borgergridwrapper{
                 div {
                         // margin: 15px 0px 0;
 
-                        h2 {
+                        h1 {
                                 margin: 15px 0px 40px;
                         }
 
-                        h3 {
+                        h2 {
                                 font-size: 25px;
+                                line-height: 25px;
                                 margin-bottom: 10px;
                                 font-weight: 600;
 
                                 @media screen and (min-width: $md) {
                                         margin-bottom: 0;
+                                        line-height: 45px;
                                 }
                         }
 

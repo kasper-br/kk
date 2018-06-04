@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Velkommen til Køge Kommune</title>
-    <meta name='description' content="Koege municipality main page. Made as an school assignment zealand institute of business and technology">
+    <meta name='description' content="Køge kommune er et sted hvor du kan leve livet - hele livet. Her er der gode muligheder for at bo, leve og arbejde uanset alder.">
 
 <?php include 'header.php';?>
 
@@ -12,7 +12,7 @@
             <figure>
                 <img src="img/pas-bestilling.png" alt="Bestil tid til dit pas i dag">
                 <figcaption>
-                    <h2>Vi holder ekstra åbnet til bestilling af pas</h2>
+                    <h2>Vi holder ekstra åbnet i Køge til bestilling af pas</h2>
                     <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
                     <a class="btn outline blue" href="<?php echo $pasurl; ?>">Bestil pas her</a>
                 </figcaption>
@@ -20,7 +20,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/flytning.png" alt="Husk at flytte din adresse">
+                <img src="img/flyttecollage.png" alt="Husk at flytte din adresse">
                 <figcaption>
                     <h2>Vidste du at du kan melde flytning online?</h2>
                     <p>Når du flytter hjemmefra, skal du skifte adresse. Du har pligt til senest fem dage efter flytningen at melde flytning til kommunen. Du kan sende en flyttemeddelelse til kommunen via selvbetjeningsløsningen "Anmeld flytning til folkeregistret". PostNord får automatisk besked om din nye adresse.</p>
@@ -34,7 +34,7 @@
 
 <article id="kategorier" class="indexgridwrapper">
         <div class="indexgrid">
-                <div class="item0"><h2>Hvad søger du?</h2></div>
+                <div class="item0"><h1>Hvad søger du efter?</h1></div>
                 <div class="item1">
                         <a href="borgerservice"><img src="img/borgerservice.png" alt="icon for borgerservice"></a>
                         <a href="borgerservice"><h3>Borgerservice</h3></a>

@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <title>Bestilling af pas - Køge Kommune</title>
-    <meta name='description' content="Koege passport subpage. Made as an school assignment zealand institute of business and technology">
-
+    <meta name='description' content='Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Det gør du ved at bruge vores selvbetjeningsløsning ved at klikke på "Start her"'>
 
 <?php include '../../header.php';?>
 
@@ -14,20 +13,20 @@
 
         <ul class="breadcrumb">
             <li>
-                    <a href="/kk">Forside</a>
+                <a href="/kk">Forside</a>
             </li>
             <li>
-                    <a href="/kk/borgerservice">Borgerservice</a>
+                <a href="/kk/borgerservice">Borgerservice</a>
             </li>
 
             <li>
-                    <span>Bestilling af pas</span>
+                <span>Bestilling af pas</span>
             </li>
         </ul>
 
         <h1>Bestilling af pas</h1>
 
-        <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
+        <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning ved at klikke på "Start her" og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
         <a class="btn green"  href="https://selvbetjening.id-port.dk/secure/259/Menu/Pas" target="_blank">Start her</a>
 
         <section class="guide">
@@ -41,13 +40,13 @@
             <div class="step">
                 <div class="number">2</div>
                 <div class="text">
-                    Når du er logget ind skal du bestille en tid på borgerService.
+                    Når du er logget ind skal du bestille en tid på borgerService i Køge Kommune.
                 </div>
             </div>
             <div class="step">
                 <div class="number">3</div>
                 <div class="text">
-                    På dagen for din tidsbestilling møder du ind på BorgerService og afslutter din pasbestilling.
+                    På dagen for din tidsbestilling møder du ind på BorgerService i Køge Kommune og afslutter din pasbestilling.
                 </div>
             </div>
         </section>

@@ -7,6 +7,7 @@ h1 {
     color: $blue;
     @media screen and (min-width: $sm) {
         font-size: 66px;
+        line-height: 75px;
     }
 }
 
