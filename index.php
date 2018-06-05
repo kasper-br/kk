@@ -17,7 +17,7 @@
             <figure>
                 <img src="img/pas-bestilling.png" alt="Bestil tid til dit pas i dag">
                 <figcaption>
-                    <h2>Vi holder ekstra åbnet i Køge til bestilling af pas</h2>
+                    <h2>Vi holder ekstra åbent i Køge til bestilling af pas</h2>
                     <p>Bestil eller forny dit pas i god tid inden din ferie. Husk at tjekke hvornår det udløber. Du skal bestille tid til at få et nyt pas. Det gør du ved at bruge vores selvbetjeningsløsning og logge på med dit nemID. Det er nemt, hurtigt og du kan betale via nettet. </p>
                     <a class="btn outline blue" href="<?php echo $pasurl; ?>">Bestil pas her</a>
                 </figcaption>
@@ -58,7 +58,7 @@
                         <ul>
                                 <li><a href="#">Misbrug,</a></li>
                                 <li><a href="#">Sundhedstilbud,</a></li>
-                                <li><a href="#">Pårørerende,</a></li>
+                                <li><a href="#">Pårørende,</a></li>
                                 <li><a href="#">Begravelseshjælp,</a></li>
                                 <li><a href="#">Afhængighed,</a></li>
                         </ul>
@@ -82,7 +82,7 @@
                         <ul>
                                 <li><a href="#">Lokalplaner,</a></li>
                                 <li><a href="#">Boliger,</a></li>
-                                <li><a href="#">Byggetilladselser,</a></li>
+                                <li><a href="#">Byggetilladelser,</a></li>
                                 <li><a href="#">Bredbåndsdækning,</a></li>
                                 <li><a href="#">Skorstensfejning,</a></li>
                         </ul>
@@ -93,7 +93,7 @@
                         <a href="#"><h3>Børn, unge og familie</h3></a>
                         <ul>
                                 <li><a href="#">Dagtilbud,</a></li>
-                                <li><a href="#">Orlov & Barse,l</a></li>
+                                <li><a href="#">Orlov & Barse</a></li>
                                 <li><a href="#">Familieydelser,</a></li>
                                 <li><a href="#">Parforhold & Ægteskab,</a></li>
                         </ul>
@@ -115,7 +115,7 @@
                         <a href="#"><img src="img/placeholder-icon.png" alt="placeholder icon skal skiftes på live version"></a>
                         <a href="#"><h3>Miljø & Teknik</h3></a>
                         <ul>
-                                <li><a href="#">Affald & genbrug,</a></li>
+                                <li><a href="#">Affald & Genbrug,</a></li>
                                 <li><a href="#">Rottebekæmpelse,</a></li>
                                 <li><a href="#">Parkering,</a></li>
                                 <li><a href="#">Veje & Stier</a></li>
@@ -126,7 +126,7 @@
                         <a href="#"><img src="img/placeholder-icon.png" alt="placeholder icon skal skiftes på live version">
                         </a><a href="#" ><h3>Ældre</h3></a>
                         <ul>
-                                <li><a href="#">Dagjem,</a></li>
+                                <li><a href="#">Daghjem,</a></li>
                                 <li><a href="#">Demenstilbud,</a></li>
                                 <li><a href="#">Folkepension,</a></li>
                                 <li><a href="#">Rådgivning</a></li>

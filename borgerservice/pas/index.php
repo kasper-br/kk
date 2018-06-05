@@ -217,7 +217,7 @@
     <aside>
         <section>
             <h4>Pasfoto</h4>
-            <p>Du kan få taget dit pasfoto både hos Borgerservice i Køge og hos Borgerservice i Borup. Hos Borgerservice i Borup er det ikke muligt, at tage pasfoto hvis du sidder i kørestol. Du får ikke papirbillederne med hjem.</p>
+            <p>Du kan få taget dit pasfoto både hos Borgerservice i Køge og hos Borgerservice Light i Borup. Hos Borgerservice Light i Borup er det ikke muligt, at tage pasfoto hvis du sidder i kørestol. Du får ikke papirbillederne med hjem.</p>
             <p>Vi kan desværre ikke tage billeder af børn under 3 år.</p>
             <p>Pasfoto pris 125 kr.</p>
         </section>

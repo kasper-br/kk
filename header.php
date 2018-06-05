@@ -94,7 +94,7 @@
                     <a href="#" class="btn white">Nemid</a>
                     <a href="#" class="btn white">Opskrivning til daginstitutioner</a>
                     <a href="#" class="btn white">Anmeld rotter</a>
-                    <a href="#" class="btn white">Vilse</a>
+                    <a href="#" class="btn white">Vielse</a>
                     <a href="#" class="btn white">Skift læge</a>
                 </div>
 

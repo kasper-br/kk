@@ -13,7 +13,7 @@
                 <div class="item2">
                         <ul>
                             <li class="first">Offentlige hjemmesider</li>
-                            <li><a href="#">borger.dk</a></li>
+                            <li><a href="#">Borger.dk</a></li>
                             <li><a href="#">Jobnet.dk</a></li>
                             <li><a href="#">Skat.dk</a></li>
                             <li><a href="#">Sundhed.dk</a></li>
@@ -31,7 +31,7 @@
                             <li class="first">Oversigt og Værktøjer</li>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="#">Få læst teksten op</a></li>
-                            <li><a href="#">kort over kommunen</a></li>
+                            <li><a href="#">Kort over kommunen</a></li>
                             <li><a href="#">Log på kjukken (for ansatte)</a></li>
                         </ul>
                 </div>
