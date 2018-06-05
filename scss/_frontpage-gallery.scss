@@ -42,7 +42,11 @@ article.gallery {
                     @include clearfix;
                     max-width: $lg;
                     margin: 0 auto;
-                    padding: 60px 0;
+                    padding: 100px 0;
+                }
+
+                @media (min-width: $md) and (min-height: 700px) and (max-height: 900px) {
+                    padding: 4vh 0;
                 }
 
                 figcaption {
