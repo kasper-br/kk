@@ -57,8 +57,10 @@ article.gallery {
                         color: $blue;
                         margin-bottom: 15px;
                         margin-top: 20px;
+                        
                         @media screen and (min-width: $md) {
-                            margin-top: 0;   
+                            margin-top: 0;
+                            line-height: 75px;
                         }
                     }
 

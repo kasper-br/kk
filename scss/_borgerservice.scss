@@ -65,16 +65,10 @@ article.borgergridwrapper{
                                 margin: 15px 0px 40px;
                         }
 
-                        h2 {
+                        h3 {
                                 font-size: 25px;
-                                line-height: 25px;
-                                margin-bottom: 10px;
+                                line-height: 50px;
                                 font-weight: 600;
-
-                                @media screen and (min-width: $md) {
-                                        margin-bottom: 0;
-                                        line-height: 45px;
-                                }
                         }
 
                         a {

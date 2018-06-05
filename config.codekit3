@@ -30,6 +30,16 @@
 		"oAP": "\/borgerservice\/pas\/index.php",
 		"oF": 0
 		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -57,7 +67,7 @@
 		},
 	"\/img\/borgerservice.png": {
 		"ft": 32768,
-		"iS": 15887,
+		"iS": 7887,
 		"oA": 0,
 		"oAP": "\/img\/borgerservice.png",
 		"oF": 0,
@@ -68,7 +78,7 @@
 		},
 	"\/img\/borgerserviceheader.jpg": {
 		"ft": 16384,
-		"iS": 5501545,
+		"iS": 166288,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/borgerserviceheader.jpg",
@@ -79,7 +89,7 @@
 		},
 	"\/img\/flytning.png": {
 		"ft": 32768,
-		"iS": 874166,
+		"iS": 232051,
 		"oA": 0,
 		"oAP": "\/img\/flytning.png",
 		"oF": 0,
@@ -112,7 +122,7 @@
 		},
 	"\/img\/nyhed1.jpg": {
 		"ft": 16384,
-		"iS": 183708,
+		"iS": 166234,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/nyhed1.jpg",
@@ -123,7 +133,7 @@
 		},
 	"\/img\/nyhed2.jpg": {
 		"ft": 16384,
-		"iS": 178331,
+		"iS": 160196,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/nyhed2.jpg",
@@ -134,7 +144,7 @@
 		},
 	"\/img\/nyhed3.jpg": {
 		"ft": 16384,
-		"iS": 274904,
+		"iS": 196654,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/nyhed3.jpg",
@@ -145,7 +155,7 @@
 		},
 	"\/img\/pas-bestilling.png": {
 		"ft": 32768,
-		"iS": 897578,
+		"iS": 224356,
 		"oA": 0,
 		"oAP": "\/img\/pas-bestilling.png",
 		"oF": 0,
@@ -156,7 +166,7 @@
 		},
 	"\/img\/pas.jpg": {
 		"ft": 16384,
-		"iS": 398666,
+		"iS": 374193,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/pas.jpg",
@@ -178,7 +188,7 @@
 		},
 	"\/img\/socialmedia.jpg": {
 		"ft": 16384,
-		"iS": 42027,
+		"iS": 95120,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/socialmedia.jpg",
